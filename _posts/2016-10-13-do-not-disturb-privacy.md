@@ -8,4 +8,4 @@ share: true
 image: "3-do-not-disturb.png"
 ---
 
-![Do Not Disturb](/assets/images/3-do-not-disturb.png "Universal Do Not Disturb Indicator")
+![Do Not Disturb]({{ site.baseurl }}/assets/images3-do-not-disturb.png "Universal Do Not Disturb Indicator")

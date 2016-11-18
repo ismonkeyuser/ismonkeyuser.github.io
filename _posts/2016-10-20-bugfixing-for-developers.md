@@ -8,4 +8,4 @@ share: true
 image: "1-minor-bug.png"
 ---
 
-![Bugfixing for developers](/assets/images/1-minor-bug.png "Bugfixing for developers")
+![Bugfixing for developers]({{ site.baseurl }}/assets/images1-minor-bug.png "Bugfixing for developers")

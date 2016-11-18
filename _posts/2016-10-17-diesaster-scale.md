@@ -8,4 +8,4 @@ share: true
 image: "2-diesaster-scale.png"
 ---
 
-![disaster scale](/assets/images/2-diesaster-scale.png "disaster scale")
+![disaster scale]({{ site.baseurl }}/assets/images2-diesaster-scale.png "disaster scale")

@@ -8,4 +8,4 @@ share: true
 image: "5-heisenbug.png"
 ---
 
-![Heisenbug](/assets/images/5-heisenbug.png "Heisenbug")
+![Heisenbug]({{ site.baseurl }}/assets/images5-heisenbug.png "Heisenbug")

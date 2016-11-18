@@ -8,4 +8,4 @@ share: true
 image: "8-java-vs-javascript-recruiters.png"
 ---
 
-![Java vs Javascript: For recruiters](/assets/images/8-java-vs-javascript-recruiters.png "Java vs Javascript: For recruiters")
+![Java vs Javascript: For recruiters]({{ site.baseurl }}/assets/images8-java-vs-javascript-recruiters.png "Java vs Javascript: For recruiters")
