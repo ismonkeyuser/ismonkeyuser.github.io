@@ -20,7 +20,7 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -38,8 +38,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+
+
 h1 {
   font-size: 2.1rem;
+
+  small {
+    font-size: 1rem;
+  }
 }
 
 h2 {
@@ -83,6 +89,8 @@ dt {
   font-weight: bold;
   margin-bottom: .5rem;
 }
+
+
 
 dd {
   margin-left: 200px;
@@ -240,8 +248,9 @@ pre code {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 0 auto;
   border-radius: 5px;
+
 }
 
 table {

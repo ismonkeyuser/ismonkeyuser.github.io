@@ -3,37 +3,33 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
-
+name:               "MonkeyUser"
+description:        "Software development satire"
 
 
 author:
-  name:             your-name
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
+  name:             Monkey User
+  twitter:          ismonkeyuser
+  github:           cstefanache
+  email:            creator@monkeyuser.com
 
 # Google-analytics
 google-analytics:
-  id:               ""
+  id:               "UA-85826815-1"
 
 # Disqus
 disqus:
-  id:               "your-id"
+  id:               "monkeyuser"
 
 # URL
-url:                "https://AWEEKJ.github.io"
+url:                "http://www.monkeyuser.com"
 #url:               "localhost:4000"
 baseurl:            ""
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+timezone:           Europe/Bucharest
+permalink:          /:year/:title/
 
 # Pagination
 paginate:           5
@@ -45,16 +41,9 @@ kramdown:
   imput:            GFM
 
 # Navigation
-nav:
-  - name:           "About"
-    url:            "/about"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
-    url:            "/tags"
-  - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
-
+#nav:
+#  - name:           "About"
+#    url:            "/about"
 
 
 # Sass
