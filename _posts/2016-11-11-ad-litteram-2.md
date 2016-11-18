@@ -12,4 +12,4 @@ Welcome to AdLitteram. The challenge is to guess the programming term that is re
 (use the commenting section if you think you know the answer)
 
 
-![AdLitteram #2]({{ site.baseurl }}/assets/imagesadlitteram/2-adlitteram.png "AdLitteram #2")
+![AdLitteram #2]({{ site.baseurl }}/assets/images/adlitteram/2-adlitteram.png "AdLitteram #2")

@@ -8,4 +8,4 @@ share: true
 image: "9-battle-of-js-frameworks.png"
 ---
 
-![JS Frameworks battle: For recruiters]({{ site.baseurl }}/assets/images9-battle-of-js-frameworks.png "JS Frameworks battle")
+![JS Frameworks battle: For recruiters]({{ site.baseurl }}/assets/images/9-battle-of-js-frameworks.png "JS Frameworks battle")
