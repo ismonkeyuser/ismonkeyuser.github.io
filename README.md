@@ -1,2 +1,1 @@
-# monkeyuser
-Software development sattire
+# Monkeyuser.com

@@ -1,0 +1,27 @@
+/* SCSS Variables */
+
+/*--------------
+  Font
+  -------------- */
+@import 'https://fonts.googleapis.com/css?family=Coming+Soon';
+
+$base-font: 'Coming Soon', cursive;
+$code-font: Menlo, Monaco, monospace;
+$code-gist-font: Menlo, Monaco, "Courier New", monospace !important;
+
+
+/*--------------
+  Color
+  -------------- */
+$base-color: rgba(#333,0.8);
+$base-lighten-color: lighten($base-color, 50);
+
+$background-color: #fff;
+$background-over-color: #f5f7f9;
+
+$text-color: #333;
+$link-color: #2e4e97;
+$code-color: #bf616a;
+$code-background-color: #f9f9f9;
+$table-border-color: #e5e5e5;
+$table-background-color: #f9f9f9;

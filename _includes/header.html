@@ -1,0 +1,22 @@
+<header class="header">
+  <div class="center">
+    <h1 class="header-title">
+      <a href="/">&#x1f435;{{ site.name }}.com</a>
+    </h1>
+    <small>
+      if ( ["Tue", "Thu", "Fri"].indexOf( today ) !== -1 ) publishNew();
+      <br>
+      // assuming that today was parsed as string from date
+    </small>
+    <!--<p class="news">Starting with <b>04 Nov, every Fri</b>: AdLitteram challenge - visualizing programming terms</p>-->
+  </div>
+  <nav class="header-nav">
+    {% for nav in site.nav %}
+    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+    <a href="{{ nav.url }}">{{ nav.name }}</a>
+    {% else %}
+    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+    {% endif %}
+    {% endfor %}
+  </nav>
+</header>

@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/social-share-kit.css" type="text/css">
+
+  <!-- Font -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+
+
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:type" content="article" >
+
+  <meta name="twitter:card" content="summary">
+
+  {% if site.author.twitter %}
+  <meta name="twitter:site" content="@{{ site.author.twitter }}">
+  <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+  {% endif %}
+
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta content="{{ page.title }}" property="og:title">
+  {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta content="{{ site.title }}" property="og:title">
+  {% endif %}
+
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}">
+    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.image }}" />
+  {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/assets/images/1 - minor bug.png">
+    <meta property="og:image" content="{{ site.url }}/assets/images/{{site.posts.first.image}}" />
+  {% endif %}
+
+
+
+  {% include google-analytics.html %}
+
+</head>

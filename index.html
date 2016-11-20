@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="list">
+    {% if site.posts.size == 0 %}
+    <h2>No post found</h2>
+    {% else %}
+    <!-- This loops through the paginated posts -->
+
+
+    {% assign page = site.posts.first %}
+    {% assign content = page.content %}
+    {% include navigation.html %}
+    <div class="post">
+        <h1 class="post-title">
+            {% if post.link %}
+                <a href="{{ page.link }}">
+            {% else %}
+                <a href="{{ page.url | prepend: site.baseurl }}">
+            {% endif %}
+             {{ page.title }}
+            </a>
+        </h1>
+        <span class="post-date">
+          <time>{{ page.date | date_to_string }}</time>
+          <span class="tags">
+          {% for tag in page.tags %}
+
+            <a href="{{ site.url }}/tags#{{ tag }}" class="tag">
+                <span class="term">{{ tag }}</span>
+            </a>
+
+          {% unless forloop.last %}{% endunless %}
+          {% endfor %}
+          </span>
+        </span>
+
+        {{ content }}
+        <div class="center">
+            <a href="{{ page.url | prepend: site.baseurl }}"> CLICK TO COMMENT</a>
+
+            <!-- Share -->
+            {% if page.share != false %}
+            {% include share_index.html %}
+            {% endif %}
+        </div>
+        {% include navigation.html %}
+
+
+    </div>
+
+
+    {% endif %}
+</div>

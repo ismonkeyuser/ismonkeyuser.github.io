@@ -1,0 +1,484 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $base-font;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+
+  @media (min-width: 38em) {
+    font-size: 20px;
+  }
+}
+
+.header-title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  max-width: 38rem;
+  padding: 0.5rem 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 38rem) {
+    padding: 0.2rem 1rem;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.news {
+  background-color: #e0d401;
+  display: inline-block;
+  padding: 2px 6px;
+}
+
+/*--------------
+  Header
+  -------------- */
+.header {
+  padding: 2%;
+
+  &-title {
+    font-weight: 300;
+    a {
+      color: $base-color;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    span {
+      color: lighten($base-color, 60);
+    }
+
+  }
+
+  &-nav {
+    a {
+      color: lighten($base-color, 50);
+      font-weight: 300;
+      text-transform: lowercase;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+      transition: all .2s ease;
+
+      &:hover,
+      &:focus {
+        color: $base-color;
+        text-decoration: none;
+      }
+
+      + a {
+        margin-left: .25rem;
+      }
+    }
+  }
+}
+
+.header-small {
+  text-align: left;
+  margin-bottom: .75rem;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  a {
+    color: $base-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+/*--------------
+  Page
+  -------------- */
+
+.page {
+  &-title {
+    margin-bottom: 2rem;
+  }
+}
+
+/*--------------
+  Post
+  -------------- */
+.post {
+
+  &-title {
+    margin-bottom: 0rem;
+  }
+
+  &-date {
+    margin-bottom: .5rem;
+    color: $base-lighten-color;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+
+  &-tag {
+    margin-bottom: 1rem;
+    .tag {
+      display: inline-block;
+      margin: 4px;
+      margin-left: 0px;
+      color: #fff;
+      background-color: $base-lighten-color;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+    li {
+      font-size: .75rem;
+      display: inline;
+      list-style-type: none;
+      text-transform: lowercase;
+    }
+    span {
+      float: left;
+      padding: .5px 5px;
+    }
+  }
+  &-share {
+    margin-bottom: 1rem;
+  }
+}
+
+.share {
+  display: block;
+  text-align: center;
+
+
+  @media (max-width: 38em) {
+    float: none;
+    display: block;
+  }
+}
+
+/*--------------
+  Post list
+  -------------- */
+
+.list {
+  &-post {
+    padding: 4% 2%;
+    &:hover {
+      background-color: $background-over-color;
+      border-color: transparent;
+      border-radius: 10px;
+    }
+
+    a {
+      color: $base-color;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    &-title {
+      margin-bottom: .25rem;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    &-date {
+      color: $base-lighten-color;
+      font-size: .75rem;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      color: lighten($base-color, 20);
+      margin-bottom: .25rem;
+      font-size: 1rem;
+    }
+  }
+
+  &-pagination {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-transform: lowercase;
+
+    &-previous {
+      float: left;
+      padding-left: 2%;
+      a {
+        color: $base-lighten-color;
+
+        &:hover,
+        &:focus {
+          color: $base-color;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &-next {
+      float: right;
+      padding-right: 2%;
+      a {
+        color: $base-lighten-color;
+
+        &:hover {
+          color: $base-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.tags {
+  margin-left: 10px;
+
+  @media (max-width: 38em) {
+    display: none;
+  }
+
+  .tag {
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    color: #999;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 23px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+
+    &:before {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+      content: '';
+      height: 6px;
+      left: 10px;
+      position: absolute;
+      width: 6px;
+      top: 10px;
+    }
+
+    &:after {
+      background: #fff;
+      border-bottom: 13px solid transparent;
+      border-left: 10px solid #eee;
+      border-top: 13px solid transparent;
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+/*--------------
+  Tags
+  -------------- */
+.tag {
+  &-index {
+    font-size: .75rem;
+    display: inline;
+    list-style-type: none;
+    text-transform: lowercase;
+
+    a {
+      display: inline-block;
+      margin: 1px 4px;
+      color: #fff;
+      background-color: lighten($base-color, 50);
+      border-radius: 3px;
+      span {
+        float: left;
+        padding: .5px 5px;
+      }
+      .count {
+        background-color: lighten($base-color, 40);
+        border-radius: 0 3px 3px 0;
+      }
+      &:hover {
+        background-color: lighten($base-color, 40);
+      }
+    }
+  }
+
+  &-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: lowercase;
+    padding-top: 1rem;
+  }
+
+  &-post {
+    padding-left: .75rem;
+    a {
+      color: $base-color;
+
+      &:hover {
+        color: $base-color;
+        text-decoration: none;
+        background-color: $background-over-color;
+        border-color: transparent;
+      }
+    }
+  }
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+}
+
+.page-navigation {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 24px;
+
+  a {
+
+  }
+
+  @media (max-width: 38em) {
+    > a {
+      font-size: 16px;
+    }
+  }
+
+  .prev {
+    display: inline-block;
+    float: left;
+    background: $base-color;
+    border-radius: 0 3px 3px 0;
+    color: #FFF;
+    height: 36px;
+    line-height: 28px;
+    padding: 5px 15px 0 20px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+
+    &:before {
+      background: #fff;
+      border-bottom: 18px solid transparent;
+      border-right: 10px solid $base-color;
+      border-top: 18px solid transparent;
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  .next {
+    display: inline-block;
+    float: right;
+    background: $base-color;
+    border-radius: 3px 0 0 3px;
+    color: #FFF;
+    height: 36px;
+    line-height: 28px;
+    padding: 5px 20px 0 15px;
+    position: relative;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+
+    &:after {
+      background: #fff;
+      border-bottom: 18px solid transparent;
+      border-left: 10px solid $base-color;
+      border-top: 18px solid transparent;
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+  }
+}
+
+.post-title {
+  font-size: 1.4rem;
+  @media (max-width: 38em) {
+    text-align: center;
+  }
+}
+
+.post-date {
+  @media (max-width: 38em) {
+    text-align: center;
+    display: block;
+  }
+}
+
+/*--------------
+  Archive
+  -------------- */
+.archive {
+  &-list {
+    &-post {
+
+      a {
+        color: $base-color;
+
+        &:hover {
+          color: $base-color;
+          text-decoration: none;
+          background-color: $background-over-color;
+          border-color: transparent;
+        }
+
+      }
+
+      &-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      &-date {
+        color: $base-lighten-color;
+        font-size: .75rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+/*--------------
+  Footer
+  -------------- */
+.footer {
+  text-align: center;
+  font-size: .75rem;
+
+  &-link {
+    margin: .2rem;
+
+    a {
+      color: $base-color;
+      margin: 4px;
+    }
+  }
+}
