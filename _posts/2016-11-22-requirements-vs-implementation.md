@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Requirements vs. Implementation"
+date: 2016-11-22
+tags: [dev, requirements, implementation]
+comments: true
+image: "13-requirements-vs-implementation.png"
+share: true
+---
+
+![Requirements vs. Implementation]({{ site.baseurl }}/assets/images/13-requirements-vs-implementation.png "Requirements vs. Implementation")
