@@ -4,9 +4,9 @@
       <a href="/">&#x1f435;{{ site.name }}.com</a>
     </h1>
     <small>
-      if (["Tue", "Thu", "Fri"].indexOf( today ) !== -1) publishNew(true);
+      if ( isTue || isThu || isFri )
       <br>
-      /* assuming that today was parsed as string from date */
+      publishNew();
     </small>
     <!--<p class="news">Starting with <b>04 Nov, every Fri</b>: AdLitteram challenge - visualizing programming terms</p>-->
   </div>
