@@ -7,7 +7,7 @@ tags:
 comments: true
 image: 15-css-layout.jpg
 share: true
-published: false
+published: true
 ---
 
 ![CSS Layout]({{ site.baseurl }}/assets/images/15-css-layout.jpg "CSS Layout")
