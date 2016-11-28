@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Universal Do Not Disturb Indicator"
-date: 2016-10-13
-tags: [general]
+title: Universal Do Not Disturb Indicator
+date: 2016-10-13T00:00:00.000Z
+tags:
+  - general
 comments: true
 share: true
-image: "3-do-not-disturb.png"
+image: 3-do-not-disturb.png
 ---
 
 ![Do Not Disturb]({{ site.baseurl }}/assets/images/3-do-not-disturb.png "Universal Do Not Disturb Indicator")

@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Requirements vs. Implementation"
-date: 2016-11-22
-tags: [dev, requirements, implementation]
+title: Requirements vs. Implementation
+date: 2016-11-22T00:00:00.000Z
+tags:
+  - dev
+  - requirements
+  - implementation
 comments: true
-image: "13-requirements-vs-implementation.png"
+image: 13-requirements-vs-implementation.png
 share: true
 ---
 
