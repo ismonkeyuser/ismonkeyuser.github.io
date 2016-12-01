@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Everysoft Inc.
+title: Everysoft Corporation
 date: 2016-12-01T00:00:00.000Z
 tags:
   - management
@@ -10,7 +10,7 @@ tags:
 comments: true
 image: 16-everysoft-inc.png
 share: true
-published: false
+published: true
 ---
 
-![Everysoft Inc.]({{ site.baseurl }}/assets/images/16-everysoft-inc.png "Everysoft Inc.")
+![Everysoft Corporation]({{ site.baseurl }}/assets/images/16-everysoft-inc.png "Everysoft Corporation")
