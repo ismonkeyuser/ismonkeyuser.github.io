@@ -7,7 +7,7 @@ tags:
 comments: true
 image: 18-targeted-branding.png
 share: true
-published: false
+published: true
 ---
 
 ![Targeted Branding]({{ site.baseurl }}/assets/images/18-targeted-branding.png "Targeted Branding")
