@@ -7,7 +7,7 @@ tags:
 comments: true
 image: adlitteram/6-adlitteram.png
 share: true
-published: false
+published: true
 ---
 
 Welcome to AdLitteram. The challenge is to guess the programming term that is represented in the image. (use the commenting section if you think you know the answer)
