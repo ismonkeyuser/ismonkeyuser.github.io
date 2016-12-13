@@ -4,6 +4,9 @@ title: Development Platforms
 date: 2016-12-13T00:00:00.000Z
 tags:
   - dev
+  - ios
+  - android
+  - browsers
   - web
 comments: true
 image: 19-development-platforms.png
