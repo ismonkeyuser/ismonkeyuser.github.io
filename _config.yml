@@ -1,5 +1,5 @@
 # # # # # # # # # # # # #
-#   K i k o - p l u s   #
+#     Le MonkeyUser     #
 # # # # # # # # # # # # #
 
 # Basic
@@ -12,6 +12,9 @@ author:
   twitter:          ismonkeyuser
   facebook:         ismonkeyuser
   email:            ismonkeyuser@gmail.com
+  subtitle:         Software development sattire [Tue, Thu, Fri]
+  #news:           MonkeyUser is drunk! please visit us in 2017
+
 
 # Google-analytics
 google-analytics:

@@ -3,12 +3,13 @@
     <h1 class="header-title">
       <a href="/">&#x1f435;{{ site.name }}.com</a>
     </h1>
+    {% if site.author.news %}
+    <div class="news">{{ site.author.news }}</div>
+    {% else %}
     <small>
-      if ( isTue || isThu || isFri )
-      <br>
-      publishNew();
+     {{site.author.subtitle}}
     </small>
-    <!--<p class="news">Starting with <b>04 Nov, every Fri</b>: AdLitteram challenge - visualizing programming terms</p>-->
+    {% endif %}
   </div>
   <nav class="header-nav">
     {% for nav in site.nav %}
