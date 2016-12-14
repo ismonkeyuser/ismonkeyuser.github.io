@@ -482,3 +482,15 @@ body {
     }
   }
 }
+
+@media (max-width: 400px) {
+  .hidden-xs {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) {
+  .visible-xs {
+    display: none;
+  }
+}
