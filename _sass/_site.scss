@@ -166,7 +166,6 @@ body {
   display: block;
   text-align: center;
 
-
   @media (max-width: 38em) {
     float: none;
     display: block;
@@ -354,6 +353,7 @@ body {
   margin-bottom: 10px;
   display: block;
   font-size: 24px;
+  text-align: center;
 
   a {
 
@@ -365,6 +365,22 @@ body {
     }
   }
 
+
+  .random {
+    display: inline-block;
+    background: $base-color;
+    border-radius: 0 3px 3px 0;
+    color: #FFF;
+    height: 36px;
+    line-height: 33px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+    border-radius: 3px;
+    position: relative;
+    padding: 5px 15px;
+  }
+
   .prev {
     display: inline-block;
     float: left;
@@ -372,7 +388,7 @@ body {
     border-radius: 0 3px 3px 0;
     color: #FFF;
     height: 36px;
-    line-height: 28px;
+    line-height: 33px;
     padding: 5px 15px 0 20px;
     position: relative;
     margin: 0 10px 10px 0;
@@ -398,7 +414,7 @@ body {
     border-radius: 3px 0 0 3px;
     color: #FFF;
     height: 36px;
-    line-height: 28px;
+    line-height: 33px;
     padding: 5px 20px 0 15px;
     position: relative;
     margin: 0 10px 10px 0;
