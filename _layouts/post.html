@@ -24,6 +24,17 @@ layout: default
 
   {{ content }}
 
+  {% if page.reveal != undefined %}
+    <div class="center">
+      <div id="reveal" class="reveal" onclick="reveal()">Reveal</div>
+    </div>
+    <script>
+      function reveal() {
+        document.getElementById('reveal').innerHTML = "Answer: {{page.reveal}}";
+        document.getElementById('reveal').className+=' answered';
+      }
+    </script>
+  {% endif %}
 
   <!-- Share -->
   {% if page.share != false %}
@@ -32,7 +43,6 @@ layout: default
     <hr>
   </div>
   {% endif %}
-
 
 
   <!-- Disqus -->

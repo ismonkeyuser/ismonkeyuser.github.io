@@ -5,6 +5,7 @@ date: 2016-11-18T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: Major Bug
 image: adlitteram/3-adlitteram.png
 share: true
 ---

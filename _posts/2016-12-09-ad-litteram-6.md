@@ -5,6 +5,7 @@ date: 2016-12-09T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: Main Menu
 image: adlitteram/6-adlitteram.png
 share: true
 published: true

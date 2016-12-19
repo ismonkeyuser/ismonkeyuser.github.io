@@ -5,6 +5,7 @@ date: 2016-11-04T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: Deadlock
 share: true
 image: adlitteram/1-adlitteram.png
 ---

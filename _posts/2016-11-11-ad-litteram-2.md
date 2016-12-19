@@ -5,6 +5,7 @@ date: 2016-11-11T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: Component Pool
 share: true
 image: adlitteram/2-adlitteram.png
 ---

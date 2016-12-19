@@ -20,6 +20,20 @@ html {
   margin-bottom: 5px;
 }
 
+
+.reveal {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  background-color: #e0d401;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+
+  &.answered {
+    background-color: #13e000;
+  }
+}
+
 html,
 body {
   margin: 0;

@@ -5,6 +5,7 @@ date: 2016-12-16T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: String.concat
 image: adlitteram/7-adlitteram.png
 share: true
 published: true

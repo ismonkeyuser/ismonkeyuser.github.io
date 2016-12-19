@@ -5,6 +5,7 @@ date: 2016-12-02T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: Pipe
 image: adlitteram/5-adlitteram.png
 share: true
 published: true

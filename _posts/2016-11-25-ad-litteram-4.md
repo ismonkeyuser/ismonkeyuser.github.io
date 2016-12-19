@@ -5,6 +5,7 @@ date: 2016-11-25T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
+reveal: SIGKILL
 image: adlitteram/4-adlitteram.png
 share: true
 ---
