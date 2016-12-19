@@ -36,6 +36,21 @@ layout: default
         </span>
 
         {{ content }}
+
+
+        {% if page.reveal != undefined %}
+        <div class="center">
+            <div id="reveal" class="reveal" onclick="reveal()">Reveal</div>
+        </div>
+        <script>
+            function reveal() {
+                document.getElementById('reveal').innerHTML = "Answer: {{page.reveal}}";
+                document.getElementById('reveal').className+=' answered';
+            }
+        </script>
+        {% endif %}
+
+
         <div class="center">
             <a href="{{ page.url | prepend: site.baseurl }}"> CLICK TO COMMENT</a>
             <!-- Share -->
