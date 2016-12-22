@@ -6,7 +6,7 @@ tags:
   - AI
 comments: true
 image: 22-decision-boundary.png
-published: false
+published: true
 share: true
 ---
 
