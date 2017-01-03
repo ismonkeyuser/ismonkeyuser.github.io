@@ -1,8 +1,8 @@
 <div class="page-navigation">
     {% if page.previous.url %}
-        <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">Previous</a>
+        <a class="prev sprite sprite-previous" href="{{ site.baseurl }}{{page.previous.url}}"></a>
     {% else %}
-        <a class="prev disabled">Previous</a>
+        <a class="prev sprite sprite-previous disabled">Previous</a>
     {% endif %}
 
 
@@ -11,15 +11,15 @@
         {% for post in site.posts %}
         posts.push("{{ post.url }}");
         {% endfor %}
-        document.write("<a class=\"random\" href=\"");
+        document.write("<a class=\"random sprite sprite-random\" href=\"");
         document.write(posts[Math.floor(Math.random() * posts.length)]);
-        document.write("\">Random</a>");
+        document.write("\"></a>");
     </script>
 
     {% if page.next.url %}
-        <a class="next" href="{{ site.baseurl }}{{page.next.url}}">Next</a>
+        <a class="next sprite sprite-next" href="{{ site.baseurl }}{{page.next.url}}"></a>
     {% else %}
-        <a class="next disabled">Next</a>
+        <a class="next sprite sprite-next disabled"></a>
     {% endif %}
     <span class="clearfix"></span>
 </div>

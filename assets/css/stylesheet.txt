@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-next {
+    width: 70px;
+    height: 35px;
+    background-position: -5px -5px;
+}
+
+.sprite-previous {
+    width: 120px;
+    height: 35px;
+    background-position: -5px -50px;
+}
+
+.sprite-random {
+    width: 107px;
+    height: 35px;
+    background-position: -85px -5px;
+}
