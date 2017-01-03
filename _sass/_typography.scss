@@ -146,7 +146,7 @@ hr {
   border: 0;
   border-top: .5px solid #eee;
   border-bottom: .5px solid #eee;
-  margin: 1.5rem auto;
+  margin: 0.8rem auto;
 }
 
 strong {
@@ -197,11 +197,15 @@ pre {
   padding: .5rem;
   font-size: .8rem;
   line-height: 1.4;
-  white-space: pre;
   white-space: pre-wrap;
   word-break: break-all;
   // word-wrap: break-word;
   background-color: $code-background-color;
+}
+
+
+.bigger {
+  font-size: 64px;
 }
 
 pre code {

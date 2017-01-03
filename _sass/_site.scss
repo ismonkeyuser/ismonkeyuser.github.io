@@ -55,10 +55,22 @@ body {
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 .news {
   background-color: #e0d401;
   display: inline-block;
   padding: 2px 6px;
+}
+
+blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
 }
 
 /*--------------

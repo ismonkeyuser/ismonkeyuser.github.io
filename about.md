@@ -6,7 +6,7 @@ permalink: /about/
 
 ![Actually Cornel ears are bigger and Constantin has a red beard]({{ site.baseurl }}/assets/images/side/about.png "Actually Cornel ears are bigger and Constantin has a red beard")
 
-MonkeyUser comics are drawn by me, Cornel*. Coming up with the plotlines is not easy so I’m helped by my friend Constantin**. All in all it’s an effort of two inappropriate developers trying to make others laugh. MonkeyUser was created out of a desire to bring joy to people working in IT by making life a little less boring, but mostly because it’s a lot of fun for us.
+MonkeyUser comics are drawn by me, [<i class="fa fa-twitter" aria-hidden="true"></i>  Cornel](https://twitter.com/_cstefanache). Coming up with the plotlines is not easy so I’m helped by my friend [<i class="fa fa-twitter" aria-hidden="true"></i> Constantin](https://twitter.com/TairesO). All in all it’s an effort of two inappropriate developers trying to make others laugh. MonkeyUser was created out of a desire to bring joy to people working in IT by making life a little less boring, but mostly because it’s a lot of fun for us.
 
 ## Sharing
 
