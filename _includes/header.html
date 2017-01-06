@@ -1,26 +1,40 @@
-<header class="header">
-  <div class="center">
-    <h1 class="header-title">
-      <span class="logo"></span>
-      <div>
-        <a href="/">{{ site.name }}.com</a>
-      </div>
-    </h1>
-    {% if site.author.news %}
-    <div class="news">{{ site.author.news }}</div>
-    {% else %}
-    <small>
-     {{site.author.subtitle}}
-    </small>
-    {% endif %}
-  </div>
-  <nav class="header-nav">
-    {% for nav in site.nav %}
-    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-    <a href="{{ nav.url }}">{{ nav.name }}</a>
-    {% else %}
-    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-    {% endif %}
-    {% endfor %}
-  </nav>
+<header class="content-container header">
+    <div class="center">
+        <h1 class="header-title">
+          <span class="logo"></span>
+          <div>
+            <a href="/">{{ site.name }}.com</a>
+          </div>
+        </h1>
+
+        <div>
+            var menu = [
+            <a href="/">"home"</a>,
+            <a href="/about/index.html">"about"</a>,
+            <a href="/feedback/index.html">"feedback"</a>
+            ];
+        </div>
+
+
+        {% if site.author.news %}
+        <div class="news">{{ site.author.news }}</div>
+        {% else %}
+        <small>
+            &#36;&gt; {{site.author.subtitle}}<blink>_</blink>
+        </small>
+        {% endif %}
+        <hr>
+
+    </div>
+
+
+    <nav class="header-nav">
+        {% for nav in site.nav %}
+        {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+        <a href="{{ nav.url }}">{{ nav.name }}</a>
+        {% else %}
+        <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+        {% endif %}
+        {% endfor %}
+    </nav>
 </header>
