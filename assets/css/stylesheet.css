@@ -25,3 +25,11 @@
     height: 35px;
     background-position: -85px -5px;
 }
+
+.logo {
+    display: inline-block;
+    background-image: url("../images/logo.svg");
+    background-size: 100px 110px;
+    width: 100px;
+    height: 110px;
+}
