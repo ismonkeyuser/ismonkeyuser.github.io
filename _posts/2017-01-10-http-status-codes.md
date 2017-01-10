@@ -7,8 +7,21 @@ tags:
   - web
 comments: true
 image: 23-http-status-codes.png
-published: false
+published: true
 share: true
 ---
 
 ![HTTP Status Codes]({{ site.baseurl }}/assets/images/23-http-status-codes.png "HTTP Status Codes")
+
+
+{: style="max-width: 300px; text-align: center; float: left;"}
+![HTTP Status Codes - 418]({{ site.baseurl }}/assets/images/23-http-status-codes-alt-2.png "HTTP Status Codes - 418")
+Thanks Lionel
+
+{: style="max-width: 300px; text-align: center; float:left;"}
+![HTTP Status Codes - 404]({{ site.baseurl }}/assets/images/23-http-status-codes-alt-1.png "HTTP Status Codes - 404")
+Thanks /u/spartaboy
+
+{: style="display:block; clear:both" }
+&nbsp;
+
