@@ -7,7 +7,7 @@ tags:
 comments: true
 # reveal: Enterprise Java Beans
 image: adlitteram/8-adlitteram.png
-published: false
+published: true
 share: true
 ---
 
