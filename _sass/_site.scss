@@ -256,33 +256,6 @@ blink {
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-transform: lowercase;
-
-    &-previous {
-      float: left;
-      padding-left: 2%;
-      a {
-        color: $base-lighten-color;
-
-        &:hover,
-        &:focus {
-          color: $base-color;
-          text-decoration: none;
-        }
-      }
-    }
-
-    &-next {
-      float: right;
-      padding-right: 2%;
-      a {
-        color: $base-lighten-color;
-
-        &:hover {
-          color: $base-color;
-          text-decoration: none;
-        }
-      }
-    }
   }
 }
 
@@ -404,19 +377,7 @@ blink {
     }
   }
 
-  .random {
-    display: inline-block;
-  }
 
-  .prev {
-    display: inline-block;
-    float: left;
-  }
-
-  .next {
-    display: inline-block;
-    float: right;
-  }
 }
 
 .post-title {

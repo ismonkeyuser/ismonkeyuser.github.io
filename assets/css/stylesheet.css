@@ -1,29 +1,46 @@
 .sprite {
     background: url(spritesheet.png) no-repeat;
     display: inline-block;
+    margin: 0 2px;
+
 }
 
-.sprite.disabled {
-    opacity: 0.2;
-    cursor: not-allowed;
+.sprite:hover {
+     background-position-y: -50px !important;
+ }
+
+.sprite-disabled, .sprite-disabled:hover {
+    background-position-y: -100px !important;
+}
+
+.sprite-first {
+    width: 50px;
+    height: 50px;
+    background-position: 0px 0px;
+}
+
+.sprite-last {
+    width: 50px;
+    height: 50px;
+    background-position: -200px 0px;
 }
 
 .sprite-next {
-    width: 70px;
-    height: 35px;
-    background-position: -5px -5px;
+    width: 50px;
+    height: 50px;
+    background-position: -150px 0px;
 }
 
 .sprite-previous {
-    width: 120px;
-    height: 35px;
-    background-position: -5px -50px;
+    width: 50px;
+    height: 50px;
+    background-position: -50px 0px;
 }
 
 .sprite-random {
-    width: 107px;
-    height: 35px;
-    background-position: -85px -5px;
+    width: 50px;
+    height: 50px;
+    background-position: -100px -0px;
 }
 
 .logo {
