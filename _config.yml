@@ -32,7 +32,7 @@ baseurl:            ""
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Europe/Bucharest
-permalink:          /404.html
+permalink:          /:year/:title/
 
 # Pagination
 paginate:           5
