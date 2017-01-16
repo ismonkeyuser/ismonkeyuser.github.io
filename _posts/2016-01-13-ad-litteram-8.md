@@ -5,7 +5,7 @@ date: 2017-01-13T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
-# reveal: Enterprise Java Beans
+reveal: Enterprise Java Beans
 image: adlitteram/8-adlitteram.png
 published: true
 share: true
