@@ -5,7 +5,7 @@ date: 2017-01-20T00:00:00.000Z
 tags:
   - adlitteram
 comments: true
-# reveal: Socket
+reveal: Socket
 image: adlitteram/9-adlitteram.png
 published: true
 share: true
