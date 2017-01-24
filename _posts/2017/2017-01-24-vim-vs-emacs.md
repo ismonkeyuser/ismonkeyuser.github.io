@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VIM vs EMACS
+title: Vim vs Emacs
 date: 2017-01-24T00:00:00.000Z
 tags:
   - dev
@@ -11,6 +11,6 @@ published: true
 share: true
 ---
 
-![VIM vs EMACS]({{ site.baseurl }}/assets/images/26-vim-vs-emacs.png "VIM vs EMACS")
+![Vim vs Emacs]({{ site.baseurl }}/assets/images/26-vim-vs-emacs.png "Vim vs Emacs")
 
 Special thanks to **Fabian** for suggesting the topic for this comic.
