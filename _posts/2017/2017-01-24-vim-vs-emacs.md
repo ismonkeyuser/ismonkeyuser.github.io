@@ -7,7 +7,7 @@ tags:
   - IDE
 comments: true
 image: 26-vim-vs-emacs.png
-published: false
+published: true
 share: true
 ---
 
