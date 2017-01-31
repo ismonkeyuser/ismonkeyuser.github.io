@@ -8,7 +8,7 @@ tags:
   - perl
 comments: true
 image: 27-technically-not-a-bug.png
-published: false
+published: true
 share: true
 ---
 
