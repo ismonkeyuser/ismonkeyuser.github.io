@@ -25,7 +25,7 @@ layout: default
   {{ content }}
   </div>
 
-  {% if page.reveal != undefined %}
+  {% if page.reveal %}
     <div class="center">
       <div id="reveal" class="reveal" onclick="reveal()">Reveal</div>
     </div>
@@ -36,9 +36,11 @@ layout: default
       }
     </script>
   {% else %}
-  <div class="center">
-    The response for the riddle will be published on Monday<br>
-  </div>
+    {% if page.title contains "AdLitteram" %}
+      <div class="center">
+        The response for the riddle will be published on Monday<br>
+      </div>
+    {% endif %}
   {% endif %}
 
   <!-- Share -->
