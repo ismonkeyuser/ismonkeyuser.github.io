@@ -6,7 +6,7 @@ tags:
   - regex
 comments: true
 image: 2017/31-tales-of-regex-42.png
-published: false
+published: true
 share: true
 ---
 
