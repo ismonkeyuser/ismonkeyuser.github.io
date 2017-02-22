@@ -12,4 +12,4 @@ image: adlitteram/1-adlitteram.png
 
 Welcome to AdLitteram. The challenge is to guess the programming term that is represented in the image.
 
-![AdLitteram #1]({{ site.baseurl }}/assets/images/adlitteram/1-adlitteram.png "AdLitteram #1")
+![AdLitteram #1]({{ site.url }}/assets/images/adlitteram/1-adlitteram.png "AdLitteram #1")

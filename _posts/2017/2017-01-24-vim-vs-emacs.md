@@ -11,6 +11,6 @@ published: true
 share: true
 ---
 
-![Vim vs Emacs]({{ site.baseurl }}/assets/images/26-vim-vs-emacs.png "Vim vs Emacs")
+![Vim vs Emacs]({{ site.url }}/assets/images/26-vim-vs-emacs.png "Vim vs Emacs")
 
 Special thanks to **Fabian** for suggesting the topic for this comic.

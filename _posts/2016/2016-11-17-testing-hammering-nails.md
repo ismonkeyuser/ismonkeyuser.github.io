@@ -9,4 +9,4 @@ image: 12-testing-hammering-nails.png
 share: true
 ---
 
-![Testing: Hammering Nails]({{ site.baseurl }}/assets/images/12-testing-hammering-nails.png "Testing: Hammering Nails")
+![Testing: Hammering Nails]({{ site.url }}/assets/images/12-testing-hammering-nails.png "Testing: Hammering Nails")

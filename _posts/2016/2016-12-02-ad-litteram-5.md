@@ -13,4 +13,4 @@ published: true
 
 Welcome to AdLitteram. The challenge is to guess the programming term that is represented in the image. (use the commenting section if you think you know the answer)
 
-![AdLitteram #5]({{ site.baseurl }}/assets/images/adlitteram/5-adlitteram.png "AdLitteram #5")
+![AdLitteram #5]({{ site.url }}/assets/images/adlitteram/5-adlitteram.png "AdLitteram #5")

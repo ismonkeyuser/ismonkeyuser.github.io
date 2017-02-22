@@ -13,4 +13,4 @@ share: true
 published: true
 ---
 
-![Everysoft Corporation]({{ site.baseurl }}/assets/images/16-everysoft-inc.png "Everysoft Corporation")
+![Everysoft Corporation]({{ site.url }}/assets/images/16-everysoft-inc.png "Everysoft Corporation")

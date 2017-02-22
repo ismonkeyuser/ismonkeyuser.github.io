@@ -10,5 +10,5 @@ published: true
 share: true
 ---
 
-![Tales of RegEx: #42]({{ site.baseurl }}/assets/images/2017/31-tales-of-regex-42.png "Tales of RegEx: #42")
+![Tales of RegEx: #42]({{ site.url }}/assets/images/2017/31-tales-of-regex-42.png "Tales of RegEx: #42")
 

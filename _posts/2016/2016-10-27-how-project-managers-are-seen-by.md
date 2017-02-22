@@ -9,4 +9,4 @@ share: true
 image: 7-project-managers.png
 ---
 
-![ProjectManagers]({{ site.baseurl }}/assets/images/7-project-managers.png "ProjectManagers")
+![ProjectManagers]({{ site.url }}/assets/images/7-project-managers.png "ProjectManagers")

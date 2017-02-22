@@ -11,4 +11,4 @@ share: true
 published: true
 ---
 
-![CSS Layout]({{ site.baseurl }}/assets/images/15-css-layout.png "CSS Layout")
+![CSS Layout]({{ site.url }}/assets/images/15-css-layout.png "CSS Layout")

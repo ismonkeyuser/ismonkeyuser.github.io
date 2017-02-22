@@ -12,5 +12,5 @@ published: true
 share: true
 ---
 
-![Technically not a bug]({{ site.baseurl }}/assets/images/27-technically-not-a-bug.png "Technically not a bug")
+![Technically not a bug]({{ site.url }}/assets/images/27-technically-not-a-bug.png "Technically not a bug")
 

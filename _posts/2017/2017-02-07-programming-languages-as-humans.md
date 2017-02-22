@@ -10,5 +10,5 @@ published: true
 share: true
 ---
 
-![Programming languages as humans]({{ site.baseurl }}/assets/images/28-programming-languages-as-humans.png "Programming languages as humans")
+![Programming languages as humans]({{ site.url }}/assets/images/28-programming-languages-as-humans.png "Programming languages as humans")
 

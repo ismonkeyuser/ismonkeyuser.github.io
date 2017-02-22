@@ -13,4 +13,4 @@ image: 19-development-platforms.png
 share: true
 ---
 
-![Development Platforms]({{ site.baseurl }}/assets/images/19-development-platforms.png "Development Platforms")
+![Development Platforms]({{ site.url }}/assets/images/19-development-platforms.png "Development Platforms")

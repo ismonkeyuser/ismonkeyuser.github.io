@@ -11,4 +11,4 @@ share: true
 published: true
 ---
 
-![Developer Productivity]({{ site.baseurl }}/assets/images/17-developer-productivity.png "Developer Productivity")
+![Developer Productivity]({{ site.url }}/assets/images/17-developer-productivity.png "Developer Productivity")

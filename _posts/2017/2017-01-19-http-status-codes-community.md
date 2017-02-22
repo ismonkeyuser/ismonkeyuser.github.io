@@ -11,7 +11,7 @@ published: true
 share: true
 ---
 
-![HTTP Status Codes - Community Suggestions]({{ site.baseurl }}/assets/images/23-http-status-codes-community.png "HTTP Status Codes - Community Suggestions")
+![HTTP Status Codes - Community Suggestions]({{ site.url }}/assets/images/23-http-status-codes-community.png "HTTP Status Codes - Community Suggestions")
 
 
 var thanks = ['Jonathan Cary', 'Микола Махін', 'Maksim Tsvetovat', 'Shane Hutter', '/u/GeneReddit123', 'Bram Patelski', 'Reddit', 'Twitter', 'Facebook']

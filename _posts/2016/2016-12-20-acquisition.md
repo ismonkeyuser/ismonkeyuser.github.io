@@ -12,4 +12,4 @@ share: true
 
 <div class="center">Thanks <a href="https://twitter.com/i_am_r0by"><i class="ssk ssk-icon ssk-twitter"></i>@i_am_r0by</a></div>
 
-![Acquisition]({{ site.baseurl }}/assets/images/21-acquisition.png "Acquisition")
+![Acquisition]({{ site.url }}/assets/images/21-acquisition.png "Acquisition")

@@ -9,4 +9,4 @@ share: true
 image: 4-project-lifecycle.png
 ---
 
-![Project Lifecycle]({{ site.baseurl }}/assets/images/4-project-lifecycle.png "Project Lifecycle")
+![Project Lifecycle]({{ site.url }}/assets/images/4-project-lifecycle.png "Project Lifecycle")

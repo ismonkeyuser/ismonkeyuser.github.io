@@ -10,4 +10,4 @@ image: 14-retrospective-accesories.png
 share: true
 ---
 
-![Retrospective Accesories]({{ site.baseurl }}/assets/images/14-retrospective-accesories.png "Retrospective Accesories")
+![Retrospective Accesories]({{ site.url }}/assets/images/14-retrospective-accesories.png "Retrospective Accesories")

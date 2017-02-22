@@ -10,4 +10,4 @@ published: true
 share: true
 ---
 
-![Decision Boundary]({{ site.baseurl }}/assets/images/22-decision-boundary.png "Decision Boundary")
+![Decision Boundary]({{ site.url }}/assets/images/22-decision-boundary.png "Decision Boundary")

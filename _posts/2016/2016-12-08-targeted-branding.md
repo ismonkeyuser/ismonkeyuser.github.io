@@ -10,4 +10,4 @@ share: true
 published: true
 ---
 
-![Targeted Branding]({{ site.baseurl }}/assets/images/18-targeted-branding.png "Targeted Branding")
+![Targeted Branding]({{ site.url }}/assets/images/18-targeted-branding.png "Targeted Branding")

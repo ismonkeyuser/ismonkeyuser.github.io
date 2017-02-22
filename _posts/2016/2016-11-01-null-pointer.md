@@ -9,4 +9,4 @@ share: true
 image: 6-npe.png
 ---
 
-![Null Pointer]({{ site.baseurl }}/assets/images/6-npe.png "Null Pointer")
+![Null Pointer]({{ site.url }}/assets/images/6-npe.png "Null Pointer")

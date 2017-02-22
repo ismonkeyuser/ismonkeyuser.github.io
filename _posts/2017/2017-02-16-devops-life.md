@@ -11,5 +11,5 @@ published: true
 share: true
 ---
 
-![DevOps Life]({{ site.baseurl }}/assets/images/2017/30-devops-life.png "DevOps Life")
+![DevOps Life]({{ site.url }}/assets/images/2017/30-devops-life.png "DevOps Life")
 
