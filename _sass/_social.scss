@@ -2,14 +2,16 @@
   right: -4px
 }
 
- .ssk-sm .ssk {
-  border-radius: 4px;
-  width: 36px;
-  height: 28px;
-  padding: 1px !important;
-  margin-right: 4px !important;
-}
+.ssk-sm {
+  .ssk {
+    border-radius: 4px;
+    width: 36px;
+    height: 28px;
+    padding: 1px !important;
+    margin-right: 4px !important;
 
-.ssk:before {
-  top: 3px !important;
+    &:before {
+      top: 3px !important;
+    }
+  }
 }
