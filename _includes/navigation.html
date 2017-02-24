@@ -20,7 +20,7 @@
 
     {% if page.previous.url %}
     <script>
-        document.write('<a class="sprite sprite-first" title="first" href="' + posts[posts.length - 1] + '"></a>');
+        document.write('<a class="sprite sprite-first" title="first" id="firstPage" href="' + posts[posts.length - 1] + '"></a>');
     </script>
 
     <a class="sprite sprite-previous" title="previous" href="{{ site.baseurl }}{{page.previous.url}}"></a>
@@ -31,6 +31,16 @@
 
     <a title="previous" class="sprite sprite-disabled sprite-previous"></a>
     {% endif %}
+
+    <!-- Add event to the button's click handler -->
+    <script type="text/javascript">
+      $( '#firstPage' ).click(function() {
+        fbq('track', 'go to first', {
+          from_page: {{page.title}}
+        });
+      });
+    </script>
+
 
 
     <script>
