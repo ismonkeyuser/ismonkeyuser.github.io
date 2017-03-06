@@ -153,7 +153,6 @@ blink {
   -------------- */
 .post {
 
-
   p {
     text-align: center;
   }
@@ -161,7 +160,6 @@ blink {
   .content {
     text-align: center;
   }
-
 
   &-title {
     margin-bottom: 0rem;
@@ -376,7 +374,6 @@ blink {
     }
   }
 
-
 }
 
 .post-title {
@@ -447,10 +444,32 @@ blink {
   .hidden-xs {
     display: none;
   }
+
+  .block-mobile {
+    display: block;
+  }
 }
 
 @media (min-width: 400px) {
   .visible-xs {
     display: none;
   }
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  overflow: hidden;
+  height: 100px;
+
+  .thumb {
+    display: inline-block;
+    border: 1px solid #000;
+    vertical-align: top;
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+  }
+
 }

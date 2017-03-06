@@ -6,7 +6,7 @@ tags:
   - javascript
 comments: true
 share: true
-image: 9-battle-of-js-frameworks.png
+image: 2016/9-battle-of-js-frameworks.png
 ---
 
-![JS Frameworks battle: For recruiters]({{ site.url }}/assets/images/9-battle-of-js-frameworks.png "JS Frameworks battle")
+![JS Frameworks battle: For recruiters]({{ site.url }}/assets/images/2016/9-battle-of-js-frameworks.png "JS Frameworks battle")

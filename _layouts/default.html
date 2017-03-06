@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body>
+<body onload="doLoadFunction()">
 
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
@@ -12,6 +12,17 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=922203014546349";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+    function doLoadFunction() {
+        <!-- Add event to the button's click handler -->
+        $('#firstPage').click(function () {
+            fbq('track', 'go to first', {
+                from_page: '{{page.title}}'
+            });
+        })
+    }
 </script>
 
 <script>window.twttr = (function (d, s, id) {
@@ -40,6 +51,9 @@
     {% include footer.html %}
 </div>
 
-
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
 </body>
 </html>

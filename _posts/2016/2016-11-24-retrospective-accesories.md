@@ -6,8 +6,8 @@ tags:
   - management
   - scrum
 comments: true
-image: 14-retrospective-accesories.png
+image: 2016/14-retrospective-accesories.png
 share: true
 ---
 
-![Retrospective Accesories]({{ site.url }}/assets/images/14-retrospective-accesories.png "Retrospective Accesories")
+![Retrospective Accesories]({{ site.url }}/assets/images/2016/14-retrospective-accesories.png "Retrospective Accesories")

@@ -6,7 +6,7 @@ tags:
   - opensource
 comments: true
 share: true
-image: 10-expectation-vs-reality-open-source.png
+image: 2016/10-expectation-vs-reality-open-source.png
 ---
 
-![Open Source: Expectation vs. Reality]({{ site.url }}/assets/images/10-expectation-vs-reality-open-source.png "Open Source: Expectation vs. Reality")
+![Open Source: Expectation vs. Reality]({{ site.url }}/assets/images/2016/10-expectation-vs-reality-open-source.png "Open Source: Expectation vs. Reality")

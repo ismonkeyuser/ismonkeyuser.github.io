@@ -9,8 +9,8 @@ tags:
   - browsers
   - web
 comments: true
-image: 19-development-platforms.png
+image: 2016/19-development-platforms.png
 share: true
 ---
 
-![Development Platforms]({{ site.url }}/assets/images/19-development-platforms.png "Development Platforms")
+![Development Platforms]({{ site.url }}/assets/images/2016/19-development-platforms.png "Development Platforms")

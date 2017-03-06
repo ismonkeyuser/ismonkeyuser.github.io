@@ -6,7 +6,7 @@ tags:
   - bugs
 comments: true
 share: true
-image: 6-npe.png
+image: 2016/6-npe.png
 ---
 
-![Null Pointer]({{ site.url }}/assets/images/6-npe.png "Null Pointer")
+![Null Pointer]({{ site.url }}/assets/images/2016/6-npe.png "Null Pointer")

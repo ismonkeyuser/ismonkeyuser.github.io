@@ -6,7 +6,7 @@ tags:
   - management
 comments: true
 share: true
-image: 7-project-managers.png
+image: 2016/7-project-managers.png
 ---
 
-![ProjectManagers]({{ site.url }}/assets/images/7-project-managers.png "ProjectManagers")
+![ProjectManagers]({{ site.url }}/assets/images/2016/7-project-managers.png "ProjectManagers")

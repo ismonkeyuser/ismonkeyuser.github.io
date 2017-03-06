@@ -6,12 +6,12 @@ tags:
   - dev
   - web
 comments: true
-image: 23-http-status-codes-community.png
+image: 2017/23-http-status-codes-community.png
 published: true
 share: true
 ---
 
-![HTTP Status Codes - Community Suggestions]({{ site.url }}/assets/images/23-http-status-codes-community.png "HTTP Status Codes - Community Suggestions")
+![HTTP Status Codes - Community Suggestions]({{ site.url }}/assets/images/2017/23-http-status-codes-community.png "HTTP Status Codes - Community Suggestions")
 
 
 var thanks = ['Jonathan Cary', 'Микола Махін', 'Maksim Tsvetovat', 'Shane Hutter', '/u/GeneReddit123', 'Bram Patelski', 'Reddit', 'Twitter', 'Facebook']

@@ -6,7 +6,7 @@ tags:
   - bugs
 comments: true
 share: true
-image: 5-heisenbug.png
+image: 2016/5-heisenbug.png
 ---
 
-![Heisenbug]({{ site.url }}/assets/images/5-heisenbug.png "Heisenbug")
+![Heisenbug]({{ site.url }}/assets/images/2016/5-heisenbug.png "Heisenbug")

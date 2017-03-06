@@ -5,8 +5,8 @@ date: 2016-11-17T00:00:00.000Z
 tags:
   - qa
 comments: true
-image: 12-testing-hammering-nails.png
+image: 2016/12-testing-hammering-nails.png
 share: true
 ---
 
-![Testing: Hammering Nails]({{ site.url }}/assets/images/12-testing-hammering-nails.png "Testing: Hammering Nails")
+![Testing: Hammering Nails]({{ site.url }}/assets/images/2016/12-testing-hammering-nails.png "Testing: Hammering Nails")

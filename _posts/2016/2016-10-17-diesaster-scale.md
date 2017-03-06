@@ -6,7 +6,7 @@ tags:
   - disasters
 comments: true
 share: true
-image: 2-diesaster-scale.png
+image: 2016/2-diesaster-scale.png
 ---
 
-![disaster scale]({{ site.url }}/assets/images/2-diesaster-scale.png "disaster scale")
+![disaster scale]({{ site.url }}/assets/images/2016/2-diesaster-scale.png "disaster scale")

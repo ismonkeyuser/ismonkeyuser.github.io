@@ -6,9 +6,9 @@ tags:
   - productivity
   - dev
 comments: true
-image: 17-developer-productivity.png
+image: 2016/17-developer-productivity.png
 share: true
 published: true
 ---
 
-![Developer Productivity]({{ site.url }}/assets/images/17-developer-productivity.png "Developer Productivity")
+![Developer Productivity]({{ site.url }}/assets/images/2016/17-developer-productivity.png "Developer Productivity")

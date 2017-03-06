@@ -6,7 +6,7 @@ tags:
   - general
 comments: true
 share: true
-image: 3-do-not-disturb.png
+image: 2016/3-do-not-disturb.png
 ---
 
-![Do Not Disturb]({{ site.url }}/assets/images/3-do-not-disturb.png "Universal Do Not Disturb Indicator")
+![Do Not Disturb]({{ site.url }}/assets/images/2016/3-do-not-disturb.png "Universal Do Not Disturb Indicator")

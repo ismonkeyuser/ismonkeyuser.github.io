@@ -6,7 +6,7 @@ tags:
   - PM
 comments: true
 share: true
-image: 4-project-lifecycle.png
+image: 2016/4-project-lifecycle.png
 ---
 
-![Project Lifecycle]({{ site.url }}/assets/images/4-project-lifecycle.png "Project Lifecycle")
+![Project Lifecycle]({{ site.url }}/assets/images/2016/4-project-lifecycle.png "Project Lifecycle")

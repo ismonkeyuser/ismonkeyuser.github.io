@@ -1,5 +1,5 @@
 <div class="center">
-    <span>Share this comic: </span>
+    <span class="block-mobile">Share this comic: </span>
 
     <span class="fb-like"
           data-href="{{ site.url }}{{ page.url }}"
@@ -10,8 +10,7 @@
           data-show-faces="true">
     </span>
     <span class="ssk-group ssk-sm">
-        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}%20via%20@ismonkeyuser:&url={{ site.url }}{{ page.url }}"
-           class="ssk ssk-twitter"></a>
+
         <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
            onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
            class="ssk ssk-google-plus"></a>
@@ -24,8 +23,18 @@
 <hr>
 {% include navigation.html %}
 <hr>
+{% include promo.html %}
+{% include top.html %}
+<script>
+    var rand = Math.random();
+    if (rand < 0.3) {
+        document.getElementById('promo').style = "";
+    } else {
+        document.getElementById('top_comics').style = "";
+    }
+</script>
+
 <div class="center">
-    <img src="/assets/images/side/promo2.png" alt="Promo" title="Promo">
     <a class="fb-like"
        style="display: inline-flex;"
        data-href="https://www.facebook.com/ismonkeyuser/"
@@ -39,15 +48,8 @@
        data-size="large"
        href="https://twitter.com/ismonkeyuser"></a>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <span style="position: relative; top: -2px;">
+<span style="position: relative; top: -2px;">
         <div class="g-follow" data-annotation="bubble" data-height="24"
              data-href="//plus.google.com/u/1/108994964581744807930" data-rel="author"></div>
     </span>
 </div>
-<!--
-<div class="center">
-    If you have an idea, topic or a good software development joke, send me a message on social media or email: <a
-        href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-    and I will draw it, post it and mention you in the title.
-</div>
--->
