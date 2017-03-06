@@ -465,11 +465,27 @@ blink {
 
   .thumb {
     display: inline-block;
-    border: 1px solid #000;
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
     vertical-align: top;
     font-size: 14px;
     width: 100px;
     height: 100px;
+
+    &:hover {
+      border-color: #777777;
+    }
   }
 
+}
+
+.ad-thumb {
+  max-width: 100px;
+  border: 1px solid #bbbbbb;
+  border-radius: 2px;
+  padding: 4px;
+
+  &:hover {
+    border-color: #777777;
+  }
 }

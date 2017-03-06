@@ -6,14 +6,14 @@ layout: default
 {% include navigation.html %}
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
     <time>{{ page.date | date_to_string }}</time>
     <span class="tags">
     {% for tag in page.tags %}
 
       <a href="{{ site.url }}/tags#{{ tag }}" class="tag">
-        <span class="term">{{ tag }}</span>
+          <span class="term">{{ tag }}</span>
       </a>
 
     {% unless forloop.last %}{% endunless %}
@@ -21,41 +21,46 @@ layout: default
     </span>
   </span>
 
-  <div class="content">
-  {{ content }}
-  </div>
+    <div class="content">
+        {{ content }}
+    </div>
 
-  {% if page.reveal %}
+    {% if page.reveal %}
     <div class="center">
-      <div id="reveal" class="reveal" onclick="reveal()">Reveal</div>
+        <div id="reveal" class="reveal" onclick="reveal()">Reveal</div>
     </div>
     <script>
-      function reveal() {
-        document.getElementById('reveal').innerHTML = "Answer: {{page.reveal}}";
-        document.getElementById('reveal').className+=' answered';
-      }
+        function reveal() {
+            document.getElementById('reveal').innerHTML = "Answer: {{page.reveal}}";
+            document.getElementById('reveal').className += ' answered';
+        }
     </script>
-  {% else %}
+    {% else %}
     {% if page.title contains "AdLitteram" %}
-      <div class="center">
+    <div class="center">
         The response for the riddle will be published on Monday<br>
-      </div>
+    </div>
     {% endif %}
-  {% endif %}
+    {% endif %}
 
-  <!-- Share -->
-  {% if page.share != false %}
-  <div class="post-share">
-    {% include share.html %}
-    <hr>
-  </div>
-  {% endif %}
+    {% assign t = page.tags | first %}
+    {% assign found = false %}
 
 
-  <!-- Disqus -->
-  {% if page.comments != false and site.disqus.id %}
-  <section id="disqus_thread"></section>
-  {% include disqus.html %}
-  {% endif %}
+
+
+    <!-- Share -->
+    {% if page.share != false %}
+    <div class="post-share">
+        {% include share.html %}
+        <hr>
+    </div>
+    {% endif %}
+
+    <!-- Disqus -->
+    {% if page.comments != false and site.disqus.id %}
+    <section id="disqus_thread"></section>
+    {% include disqus.html %}
+    {% endif %}
 
 </div>
