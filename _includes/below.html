@@ -7,7 +7,7 @@
     {%      if post.tags contains t %}
 
     {%          if post.title != page.title and found == true%}
-        <a href="{{site.url}}/{{post.url}}" style="display: inline-block;">
+        <a href="{{site.url}}{{post.url}}" style="display: inline-block;">
             <img  class="ad-thumb" src="{{site.url}}/assets/images/{{post.image}}">
             <span style="font-size: 14px;">{{post.title}}</span>
         </a>
