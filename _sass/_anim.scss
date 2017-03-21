@@ -1,0 +1,71 @@
+.val-top {
+ vertical-align: top;
+}
+
+#hearts {
+
+  color: #FF0000;
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin-bottom: -10px;
+
+
+  .heart1 {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    display: inline-block;
+    animation: up 0.7s infinite ease-in-out;
+    transform: rotate(-15deg);
+  }
+
+  .heart2 {
+    position: absolute;
+    left: 20px;
+    font-size: 1.2rem;
+    bottom: 0px;
+    display: inline-block;
+    animation: up 0.8s infinite ease-in-out;
+    transform: rotate(20deg);
+  }
+
+  .heart3 {
+    position: absolute;
+    left: 5px;
+    font-size: 0.8rem;
+    bottom: 0px;
+    display: inline-block;
+    animation: up 1s infinite ease-in-out;
+    transform: rotate(10deg);
+  }
+
+}
+
+
+
+@keyframes up {
+  0% {
+    bottom: 0;
+    color: rgba(255,0,0,0);
+  }
+
+  25%{
+    color: rgba(255,0,0,1);
+  }
+
+  50%{
+    color: rgba(255,0,0,0.6);
+  }
+
+
+  80%{
+    color: rgba(255,0,0,1);
+  }
+
+  100% {
+    bottom: 10px;
+    color: rgba(255,0,0,0);
+  }
+}
