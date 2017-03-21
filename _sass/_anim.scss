@@ -14,16 +14,16 @@
 
   .heart1 {
     position: absolute;
-    left: 10px;
-    bottom: 0px;
+    left: 20px;
+    bottom: 0;
     display: inline-block;
-    animation: up 0.7s infinite ease-in-out;
+    animation: up 1.1s infinite ease-in-out;
     transform: rotate(-15deg);
   }
 
   .heart2 {
     position: absolute;
-    left: 20px;
+    left: 0;
     font-size: 1.2rem;
     bottom: 0px;
     display: inline-block;
@@ -33,12 +33,22 @@
 
   .heart3 {
     position: absolute;
-    left: 5px;
+    left: 10px;
     font-size: 0.8rem;
     bottom: 0px;
     display: inline-block;
-    animation: up 1s infinite ease-in-out;
+    animation: up 1.5s infinite ease-in-out;
     transform: rotate(10deg);
+  }
+
+  .heart4 {
+    position: absolute;
+    left: 30px;
+    font-size: 0.5rem;
+    bottom: 0;
+    display: inline-block;
+    animation: up 0.9s infinite ease-in-out;
+    transform: rotate(50deg);
   }
 
 }
@@ -65,7 +75,7 @@
   }
 
   100% {
-    bottom: 10px;
+    bottom: 20px;
     color: rgba(255,0,0,0);
   }
 }
