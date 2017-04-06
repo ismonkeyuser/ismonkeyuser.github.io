@@ -1,7 +1,8 @@
 ---
 layout: post
-title: 'Different Perspectives'
+title: Different Perspectives
 date: 2017-04-04T00:00:00.000Z
+position: 11% 50%
 tags:
   - frameworks
 comments: true
@@ -11,6 +12,3 @@ share: true
 ---
 
 ![This applies for all routing frameworks]({{ site.url }}/assets/images/2017/39-different-perspectives.png "This applies for all routing frameworks")
-
-
-

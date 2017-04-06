@@ -2,6 +2,7 @@
 layout: post
 title: Retrospective Accesories
 date: 2016-11-24T00:00:00.000Z
+position: 0% 31%
 tags:
   - management
   - scrum

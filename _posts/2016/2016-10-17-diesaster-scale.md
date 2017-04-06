@@ -2,6 +2,7 @@
 layout: post
 title: disaster Scale
 date: 2016-10-17T00:00:00.000Z
+position: 96% 58%
 tags:
   - disasters
 comments: true

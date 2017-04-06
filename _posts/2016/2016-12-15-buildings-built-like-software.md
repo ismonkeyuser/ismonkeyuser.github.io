@@ -2,6 +2,7 @@
 layout: post
 title: If Buildings Were Built Like Software
 date: 2016-12-15T00:00:00.000Z
+position: 9% 47%
 tags:
   - dev
 comments: true

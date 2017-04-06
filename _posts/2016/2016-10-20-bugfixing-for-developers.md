@@ -2,6 +2,7 @@
 layout: post
 title: Bugfixing - for developers
 date: 2016-10-20T00:00:00.000Z
+position: 40% 14%
 tags:
   - bugs
 comments: true

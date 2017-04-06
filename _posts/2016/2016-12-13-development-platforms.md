@@ -2,6 +2,7 @@
 layout: post
 title: Development Platforms
 date: 2016-12-13T00:00:00.000Z
+position: 91% 72%
 tags:
   - dev
   - ios

@@ -2,6 +2,7 @@
 layout: post
 title: AdLitteram 7
 date: 2016-12-16T00:00:00.000Z
+position: 50% 50%
 tags:
   - adlitteram
 comments: true

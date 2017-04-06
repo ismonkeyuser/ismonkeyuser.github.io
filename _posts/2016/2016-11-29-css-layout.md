@@ -2,6 +2,7 @@
 layout: post
 title: CSS Layout
 date: 2016-11-29T00:00:00.000Z
+position: 3% 1%
 tags:
   - web
   - css

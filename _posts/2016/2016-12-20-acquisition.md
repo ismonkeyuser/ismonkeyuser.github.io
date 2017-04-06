@@ -2,6 +2,7 @@
 layout: post
 title: Acquisition
 date: 2016-12-20T00:00:00.000Z
+position: 7% 20%
 tags:
   - dev
 comments: true

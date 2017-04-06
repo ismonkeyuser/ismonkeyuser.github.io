@@ -2,6 +2,7 @@
 layout: post
 title: Developer Productivity
 date: 2016-12-06T00:00:00.000Z
+position: 12% 78%
 tags:
   - productivity
   - dev

@@ -2,6 +2,7 @@
 layout: post
 title: Universal Do Not Disturb Indicator
 date: 2016-10-13T00:00:00.000Z
+position: 51% 45%
 tags:
   - general
 comments: true

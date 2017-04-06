@@ -2,6 +2,7 @@
 layout: post
 title: Requirements vs. Implementation
 date: 2016-11-22T00:00:00.000Z
+position: 91% 35%
 tags:
   - dev
   - requirements

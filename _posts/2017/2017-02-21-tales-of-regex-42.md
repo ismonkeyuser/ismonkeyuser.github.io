@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Tales of RegEx&#58; &#35;42
+title: 'Tales of RegEx&#58; &#35;42'
 date: 2017-02-21T00:00:00.000Z
+position: 56% 7%
 tags:
   - regex
 comments: true
@@ -11,4 +12,3 @@ share: true
 ---
 
 ![Tales of RegEx: #42]({{ site.url }}/assets/images/2017/31-tales-of-regex-42.png "Tales of RegEx: #42")
-

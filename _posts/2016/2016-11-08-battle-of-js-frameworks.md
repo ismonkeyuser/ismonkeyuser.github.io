@@ -2,6 +2,7 @@
 layout: post
 title: Battle of the JS frameworks in 2016
 date: 2016-11-08T00:00:00.000Z
+position: 7% 38%
 tags:
   - javascript
 comments: true

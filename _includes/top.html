@@ -1,4 +1,4 @@
-<div id="top_comics" style="display: none;">
+<div id="top_comics">
     <div class="center">Random comics:</div>
     <div class="top">
         <script>
@@ -8,7 +8,9 @@
                     var index = Math.round(Math.random() * posts.length);
                     if (selected.indexOf(index) === -1 && posts[index] && images[index] && titles[index] && titles[index].toLowerCase().indexOf('litteram') === -1) {
                         selected.push(index);
-                        document.write('<a class="thumb" title="' + titles[index] + '" style="background-image: url(/assets/images/' + images[index] + ')" href="' + posts[index] + '"></a>')
+                        document.write('<a class="thumb" title="' + titles[index] +
+                        '" style="background-position: ' + positions[index] +'; background-image: url(/assets/images/' + images[index] + 
+                        ')" href="' + posts[index] + '"></a>')
                     }
                 }
             } catch(e) {

@@ -2,6 +2,7 @@
 layout: post
 title: Vim vs Emacs
 date: 2017-01-24T00:00:00.000Z
+position: 99% 30%
 tags:
   - dev
   - IDE
