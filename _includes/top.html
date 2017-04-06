@@ -8,7 +8,6 @@
                     var index = Math.round(Math.random() * posts.length);
                     if (selected.indexOf(index) === -1 && posts[index] && images[index] && titles[index] && titles[index].toLowerCase().indexOf('litteram') === -1) {
                         selected.push(index);
-                        console.log(posts[index], images[index]);
                         document.write('<a class="thumb" title="' + titles[index] + '" style="background-image: url(/assets/images/' + images[index] + ')" href="' + posts[index] + '"></a>')
                     }
                 }
