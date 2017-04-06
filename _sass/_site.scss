@@ -461,7 +461,7 @@ blink {
   margin-bottom: 20px;
   display: block;
   overflow: hidden;
-  height: 100px;
+  height: 102px;
 
   .thumb {
     display: inline-block;
@@ -471,6 +471,10 @@ blink {
     font-size: 14px;
     width: 100px;
     height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 2px;
 
     &:hover {
       border-color: #777777;

@@ -1,10 +1,14 @@
 <div class="page-navigation">
     <script>
         var posts = [];
+        var images = [];
+        var titles = [];
         var prev, next;
 
         {% for post in site.posts %}
             posts.push("{{ post.url }}");
+            images.push("{{post.image}}");
+            titles.push("{{post.title}}");
         {% endfor %}
 
         {% if page.previous.url %}
