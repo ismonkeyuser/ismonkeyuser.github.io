@@ -1,41 +1,58 @@
 <div class="page-navigation">
 
-
-    {% if page.previous.url %}
-    <script>
-        document.write('<a class="sprite sprite-first" title="first" id="firstPage" href="' + posts[posts.length - 1] + '"></a>');
-    </script>
-
-    <a class="sprite sprite-previous" title="previous" href="{{ site.baseurl }}{{page.previous.url}}"></a>
-    {% else %}
-    <script>
-        document.write('<a title="first" class="sprite sprite-disabled sprite-first"></a>');
-    </script>
-
-    <a title="previous" class="sprite sprite-disabled sprite-previous"></a>
+    {% for post in site.posts %}
+    {% if page.url == post.url %}
+    {% assign currentIndex = forloop.rindex %}
     {% endif %}
+    {% endfor %}
 
+    {% assign percentIndex = currentIndex | times: 100 | divided_by:site.posts.size %}
+    {% assign era = currentIndex | times: 13 | divided_by:site.posts.size  %}
 
+    <div class="timeline">
+        <div style="margin-left: {{ percentIndex | round}}%" class="current"></div>
+        <div class="thumb initial" title="first">
+            <script>
+                document.write("<a href=\"");
+                document.write(posts[posts.length - 1]);
+                document.write("\"><img title='first' src='/assets/images/navigation/0.png'/></a>");
+            </script>
+        </div>
 
+        <div class="thumb era nobefore" title="era" style="left: {{ percentIndex | round}}%">
+            <img title="era" src="/assets/images/navigation/{{era | round}}.png"/>
+        </div>
 
-    <script>
-        document.write("<a title=\"random\" class=\"random sprite sprite-random\" href=\"");
-        document.write(posts[Math.floor(Math.random() * posts.length)]);
-        document.write("\"></a>");
-    </script>
+        {% if page.previous.url %}
+        <div class="thumb prev nobefore" title="previous">
+            <a href="{{page.previous.url}}">
+                <img title='previous' src='/assets/images/navigation/p.png'/>
+            </a>
+        </div>
+        {% endif %}
 
-    {% if page.next.url %}
-    <a title="next" class="next sprite sprite-next" href="{{ site.baseurl }}{{page.next.url}}"></a>
-    <script>
-        document.write('<a title=\"last\" class="sprite sprite-last" href="' + posts[0] + '"></a>');
-    </script>
-    {% else %}
-    <a title="next" class="next sprite sprite-disabled sprite-next"></a>
-    <script>
-        document.write('<a title=\"last\" class="sprite sprite-disabled sprite-last" ></a>');
-    </script>
-    {% endif %}
-
+        <div class="thumb random nobefore" title="random">
+            <script>
+                document.write("<a href=\"");
+                document.write(posts[Math.floor(Math.random() * posts.length)]);
+                document.write("\"><img title='previous' src='/assets/images/navigation/r.png'/></a>");
+            </script>
+        </div>
+        {% if page.next.url %}
+            <div class="thumb next nobefore" title="next">
+                <a href="{{page.next.url}}">
+                    <img title='previous' src='/assets/images/navigation/n.png'/>
+                </a>
+            </div>
+        {% endif %}
+        <div class="thumb last" title="last">
+            <script>
+                document.write("<a href=\"");
+                document.write(posts[0]);
+                document.write("\"><img title='last' src='/assets/images/navigation/13.png'/></a>");
+            </script>
+        </div>
+    </div>
 
     <span class="clearfix"></span>
 
