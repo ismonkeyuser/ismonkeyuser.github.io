@@ -11,6 +11,13 @@
 
     <div class="timeline">
         <div style="margin-left: {{ percentIndex | round}}%" class="current"></div>
+
+
+        <div class="thumb era nobefore" title="era" style="left: {{ percentIndex | round}}%">
+            <img title="era" src="/assets/images/navigation/{{era | round}}.png"/>
+        </div>
+
+        {% if page.previous.url %}
         <div class="thumb initial" title="first">
             <script>
                 document.write("<a href=\"");
@@ -18,12 +25,6 @@
                 document.write("\"><img title='first' src='/assets/images/navigation/0.png'/></a>");
             </script>
         </div>
-
-        <div class="thumb era nobefore" title="era" style="left: {{ percentIndex | round}}%">
-            <img title="era" src="/assets/images/navigation/{{era | round}}.png"/>
-        </div>
-
-        {% if page.previous.url %}
         <div class="thumb prev nobefore" title="previous">
             <a href="{{page.previous.url}}">
                 <img title='previous' src='/assets/images/navigation/p.png'/>
@@ -38,20 +39,23 @@
                 document.write("\"><img title='previous' src='/assets/images/navigation/r.png'/></a>");
             </script>
         </div>
+
         {% if page.next.url %}
             <div class="thumb next nobefore" title="next">
                 <a href="{{page.next.url}}">
                     <img title='next' src='/assets/images/navigation/n.png'/>
                 </a>
             </div>
+
+              <div class="thumb last" title="last">
+                  <script>
+                      document.write("<a href=\"");
+                      document.write(posts[0]);
+                      document.write("\"><img title='last' src='/assets/images/navigation/13.png'/></a>");
+                  </script>
+              </div>
         {% endif %}
-        <div class="thumb last" title="last">
-            <script>
-                document.write("<a href=\"");
-                document.write(posts[0]);
-                document.write("\"><img title='last' src='/assets/images/navigation/13.png'/></a>");
-            </script>
-        </div>
+
     </div>
 
     <span class="clearfix"></span>
