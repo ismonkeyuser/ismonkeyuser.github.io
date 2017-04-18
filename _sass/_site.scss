@@ -44,6 +44,7 @@ body {
   padding: 0.5rem 0.5rem;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 
   @media (min-width: 38rem) {
     padding: 0.2rem 1rem;
@@ -523,11 +524,14 @@ blink {
 
   .thumb {
     position: absolute;
-    background-color: rgba(255,255,255,.8);
-    border: 1px solid rgba(0,0,0,.2);
+    background-color: rgba(255,255,255,.9);
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
     top: 10px;
     width: 50px;
     height: 50px;
+    border-radius: 3px;
+    overflow: hidden;
 
     &.nobefore {
       &:before {
@@ -554,6 +558,7 @@ blink {
     &.era {
       margin-left: -25px;
       top: -66px;
+      border-radius: 100%;
     }
 
     &.prev {
