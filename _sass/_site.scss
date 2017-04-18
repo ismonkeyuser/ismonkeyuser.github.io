@@ -521,6 +521,7 @@ blink {
   height: 5px;
   position: relative;
   margin: 40px 25px 80px 25px;
+  cursor: pointer;
 
   .thumb {
     position: absolute;
@@ -531,7 +532,7 @@ blink {
     width: 50px;
     height: 50px;
     border-radius: 3px;
-    overflow: hidden;
+    padding: 2px;
 
     &.nobefore {
       &:before {
@@ -547,7 +548,7 @@ blink {
       display: block;
       height: 11px;
       background-color: #000;
-      margin-top: -11px;
+      margin-top: -13px;
     }
 
     &.initial {
