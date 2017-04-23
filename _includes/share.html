@@ -1,15 +1,19 @@
-<div class="center">
-    <span class="block-mobile">Share this comic: </span>
+<div class="center share">
+    <span class="block-mobile">Share: </span>
 
-    <span class="fb-like"
-          data-href="{{ site.url }}{{ page.url }}"
-          data-layout="button_count"
-          data-action="like"
-          data-share="true"
-          data-size="large"
-          data-show-faces="true">
-    </span>
+
+    <div class="fb-like"
+         data-href="{{ site.url }}{{ page.url }}"
+         data-layout="button_count"
+         data-action="like"
+         data-size="large"
+         data-show-faces="false"
+         data-share="false">
+    </div>
+
     <span class="ssk-group ssk-sm">
+        <a onclick="window.open('http://www.facebook.com/sharer/sharer.php?u={{ site.url }}&title={{ page.url }}', 'monkeywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+           class="ssk ssk-facebook"></a>
         <a href="https://twitter.com/intent/tweet?text={{ page.title  }}%20via%20@ismonkeyuser:&url={{ site.url }}{{ page.url }}"
            class="ssk ssk-twitter"></a>
         <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"

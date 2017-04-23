@@ -200,15 +200,7 @@ blink {
   }
 }
 
-.share {
-  display: block;
-  text-align: center;
 
-  @media (max-width: 38em) {
-    float: none;
-    display: block;
-  }
-}
 
 /*--------------
   Post list
@@ -444,10 +436,6 @@ blink {
 @media (max-width: 400px) {
   .hidden-xs {
     display: none;
-  }
-
-  .block-mobile {
-    display: block;
   }
 }
 
