@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'QA Engineer - Buying bed'
+title: 'QA Engineer - Bed Shopping'
 date: 2017-04-24T00:00:00.000Z
 position: 50% 50%
 tags:
