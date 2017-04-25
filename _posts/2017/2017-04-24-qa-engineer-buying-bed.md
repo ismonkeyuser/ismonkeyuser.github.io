@@ -8,7 +8,7 @@ tags:
 comments: true
 image: 2017/42-qa-engineer-buying-bed.png
 video: KxgLT2WP6bo
-published: false
+published: true
 share: true
 ---
 
