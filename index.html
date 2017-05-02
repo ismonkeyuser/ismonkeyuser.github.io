@@ -19,6 +19,9 @@ layout: default
                 <a href="{{ page.url | prepend: site.baseurl }}">
             {% endif %}
              {{ page.title }}
+                    {% if page.video %}
+                    {% include video.html %}
+                    {% endif %}
             </a>
         </h1>
         <span class="post-date">
