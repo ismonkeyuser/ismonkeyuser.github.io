@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Shady Logic Gates'
+title: Shady Logic Gates
 date: 2017-05-02T00:00:00.000Z
-position: 50% 50%
+position: 53% 11%
 tags:
   - development
 comments: true

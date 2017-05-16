@@ -1,13 +1,12 @@
 ---
 layout: post
-title: 'Unit Tests Coverage Degradation'
+title: Unit Tests Coverage Degradation
 date: 2017-05-09T00:00:00.000Z
-position: 50% 50%
+position: 11% 30%
 tags:
   - development
 comments: true
 image: 2017/44-unit-tests-coverage-degradation.png
-# video: Mtg1SaUioeQ
 published: true
 share: true
 ---
