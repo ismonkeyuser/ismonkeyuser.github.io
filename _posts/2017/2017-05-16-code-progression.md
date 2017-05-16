@@ -2,7 +2,7 @@
 layout: post
 title: 'Code Progression'
 date: 2017-05-16T00:00:00.000Z
-position: 50% 50%
+position: 86% 7%
 tags:
   - development
   - evolution
