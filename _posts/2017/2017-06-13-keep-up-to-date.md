@@ -2,7 +2,7 @@
 layout: post
 title: 'Keep Up To Date'
 date: 2017-06-13T00:00:00.000Z
-position: 50% 20%
+position: 85% 40%
 tags:
   - development
 comments: true
