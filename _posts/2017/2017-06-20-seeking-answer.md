@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Seeking Answer'
+title: Seeking Answer
 date: 2017-06-20T00:00:00.000Z
-position: 50% 50%
+position: 13% 34%
 tags:
   - development
 comments: true
