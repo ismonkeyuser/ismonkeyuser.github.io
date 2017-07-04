@@ -2,7 +2,7 @@
 layout: post
 title: NPM Delivery
 date: 2017-07-04T00:00:00.000Z
-position: 9% 20%
+position: 91% 14%
 tags:
   - development
   - npm
