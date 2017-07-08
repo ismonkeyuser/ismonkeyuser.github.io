@@ -1,0 +1,5 @@
+{% for post in site.posts %}
+<div>
+    <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small> - <a href="{{ post.url }}">{{ post.title }}</a>
+</div>
+{% endfor %}
