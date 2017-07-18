@@ -13,4 +13,4 @@ published: true
 share: true
 ---
 
-![You've Reached The Bottom]({{ site.url }}/assets/images/2017/54-bottom-of-backlog.png "You've Reached The Bottom")
+![If you see this you've gone too far]({{ site.url }}/assets/images/2017/54-bottom-of-backlog.png "If you see this you've gone too far")
