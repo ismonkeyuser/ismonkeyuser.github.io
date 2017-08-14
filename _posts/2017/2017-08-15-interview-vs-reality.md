@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interview vs. Reality
-date: 2017-08-15T00:00:00.000Z
+date: 2017-08-16T00:00:00.000Z
 position: 0% 30%
 tags:
   - development
