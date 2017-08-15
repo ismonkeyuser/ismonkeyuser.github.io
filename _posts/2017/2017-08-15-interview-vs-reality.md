@@ -7,7 +7,7 @@ tags:
   - development
 comments: true
 image: 2017/58-interview-vs-reality.png
-published: false
+published: true
 share: true
 ---
 
