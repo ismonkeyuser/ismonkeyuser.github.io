@@ -6,7 +6,7 @@ position: 0% 30%
 tags:
   - agile
 comments: true
-image: 2017/60-productive-scrum-meetings.png.png
+image: 2017/60-productive-scrum-meetings.png
 published: true
 share: true
 ---
