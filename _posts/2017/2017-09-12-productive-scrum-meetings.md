@@ -11,4 +11,4 @@ published: true
 share: true
 ---
 
-![Time's up]({{ site.url }}/assets/images/2017/60-productive-scrum-meetings.png.png "Time's up")
+![Time's up]({{ site.url }}/assets/images/2017/60-productive-scrum-meetings.png "Time's up")
