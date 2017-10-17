@@ -73,12 +73,14 @@
     var prev, next;
 
     {% for post in site.posts %}
+
+    {% unless post.title contains 'AdLitteram' %}
     posts.push("{{ post.url }}");
     images.push("{{post.image}}");
     titles.push("{{post.title}}");
     positions.push("{{post.position}}");
 
-
+    {% endunless %}
 
     {% endfor %}
 

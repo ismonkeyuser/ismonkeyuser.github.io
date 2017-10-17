@@ -1,38 +1,3 @@
-
-{% assign t = page.tags | first %}
-{% assign found = false %}
-{% if page.title contains "AdLitteram" %}
-
-<div class="center" style="margin-bottom: 20px;">
-    {% for post in site.posts %}
-    {%      if post.tags contains t %}
-
-    {%          if post.title != page.title and found == true%}
-        <a href="{{site.url}}{{post.url}}" style="display: inline-block;">
-            <img  class="ad-thumb" src="{{site.url}}/assets/images/{{post.image}}">
-            <span style="font-size: 14px;">{{post.title}}</span>
-        </a>
-    {%              break %}
-    {%          elsif post.title == page.title %}
-    {%              assign found = true %}
-    {% elsif found == false %}
-    {% assign last = post %}
-    {%          endif %}
-    {%      endif %}
-    {% endfor %}
-
-
-    {% if last %}
-        <a href="{{site.url}}{{last.url}}" style="display: inline-block;">
-            <img class="ad-thumb" src="{{site.url}}/assets/images/{{last.image}}">
-            <span style="font-size: 14px;">{{last.title}}</span>
-        </a>
-    {% endif %}
-
-</div>
- {% else %}
-
 <hr>
 {% include top.html %}
-{% endif %}
 
