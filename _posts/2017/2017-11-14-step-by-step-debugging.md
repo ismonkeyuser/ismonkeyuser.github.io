@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Step By Step Debugging
-date: 2017-11-07T00:00:00.000Z
+date: 2017-11-14T00:00:00.000Z
 position: 50% 50%
 tags:
   - dev
