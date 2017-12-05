@@ -7,7 +7,8 @@ tags:
   - dev
 comments: true
 image: 2017/70-runtime-vs-compile-time-errors.png
-published: false
+published: true
+
 share: true
 ---
 
