@@ -11,4 +11,4 @@ published: true
 share: true
 ---
 
-![Merry X-MAS everybody]({{ site.url }}/assets/images/2017/71-bugfixing-cars-using.png "Merry X-MAS everybody")
+![Merry X-MAS everybody]({{ site.url }}/assets/images/2017/72-santas-smart-contract.png "Merry X-MAS everybody")
