@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Release day
-date: 2017-01-16T00:00:00.000Z
+date: 2018-01-16T00:00:00.000Z
 position: 50% 50%
 tags:
   - dev
