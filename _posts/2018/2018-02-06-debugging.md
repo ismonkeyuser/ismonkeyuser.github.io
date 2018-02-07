@@ -15,7 +15,7 @@ share: true
 
 <div style="text-align: center; margin-top: 60px;">
   <div style="max-width: 350px; display: inline-block;">
-    <div class="center">Suggested by <a href="https://twitter.com/spectrekelevra"><i class="ssk ssk-icon ssk-twitter"></i>@spectrekelevra</a></div>
+    <div class="center">Created by <a href="https://twitter.com/spectrekelevra"><i class="ssk ssk-icon ssk-twitter"></i>@spectrekelevra</a></div>
     <img src="{{ site.url }}/assets/images/2018/76-debugging-suggestion1.png" alt="Community edit" title="Community edit">
   </div>
   <div style="max-width: 350px; display: inline-block;">
