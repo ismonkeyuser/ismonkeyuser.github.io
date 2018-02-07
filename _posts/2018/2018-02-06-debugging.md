@@ -12,3 +12,7 @@ share: true
 ---
 
 ![When stackoverflow is missing the answer]({{ site.url }}/assets/images/2018/76-debugging.png "When stackoverflow is missing the answer")
+
+
+<div class="center">Suggested by <a href="https://twitter.com/spectrekelevra"><i class="ssk ssk-icon ssk-twitter"></i>@spectrekelevra</a></div>
+![Community edit]({{ site.url }}/assets/images/2018/76-debugging-suggestion1.png "Community edit")
