@@ -15,7 +15,3 @@ You can share and post these comics anywhere you like without telling us, as lon
 ## Printing
 
 Again you can totally do that without telling us if it’s a not-for-profit thing, if it’s a for-profit thing just let us know and we’ll probably be fine with it. In both cases just remember to attribute the comic to monkeyuser.com 
-
-## Feedback
-<section id="disqus_thread"></section>
-{% include disqus.html %}

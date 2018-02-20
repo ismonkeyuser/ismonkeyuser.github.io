@@ -22,8 +22,8 @@ google-analytics:
   id:               "UA-85826815-1"
 
 # Disqus
-disqus:
-  id:               "monkeyuser"
+#disqus:
+#  id:               "monkeyuser"
 
 # URL
 url:                "http://www.monkeyuser.com"
