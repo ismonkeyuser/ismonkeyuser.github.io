@@ -2,7 +2,7 @@
 layout: post
 title: Release day
 date: 2018-01-16T00:00:00.000Z
-position: 50% 50%
+position: 1% 16%
 tags:
   - dev
 comments: true

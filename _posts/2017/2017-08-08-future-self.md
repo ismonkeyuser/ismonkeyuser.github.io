@@ -2,7 +2,7 @@
 layout: post
 title: Future Self
 date: 2017-08-08T00:00:00.000Z
-position: 0% 30%
+position: 12% 52%
 tags:
   - development
   - refactoring

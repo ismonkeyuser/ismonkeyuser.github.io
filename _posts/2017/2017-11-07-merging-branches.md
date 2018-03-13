@@ -2,7 +2,7 @@
 layout: post
 title: Merging Branches
 date: 2017-11-07T00:00:00.000Z
-position: 50% 50%
+position: 77% 94%
 tags:
   - dev
 comments: true

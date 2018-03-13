@@ -2,7 +2,7 @@
 layout: post
 title: Agile Conspiracy
 date: 2018-01-23T00:00:00.000Z
-position: 50% 50%
+position: 2% 50%
 tags:
   - dev
   - agile

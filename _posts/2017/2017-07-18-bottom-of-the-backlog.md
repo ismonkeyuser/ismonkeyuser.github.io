@@ -2,7 +2,7 @@
 layout: post
 title: Bottom of the backlog
 date: 2017-07-18T00:00:00.000Z
-position: 0% 30%
+position: 4% 45%
 tags:
   - development
   - backlog
