@@ -2,7 +2,7 @@
 layout: post
 title: Refactor Man
 date: 2017-08-01T00:00:00.000Z
-position: 0% 30%
+position: 85% 14%
 tags:
   - development
   - refactoring

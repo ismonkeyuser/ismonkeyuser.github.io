@@ -2,7 +2,7 @@
 layout: post
 title: Testing - in a nutshell
 date: 2017-08-22T00:00:00.000Z
-position: 0% 30%
+position: 6% 28%
 tags:
   - qa
   - testing

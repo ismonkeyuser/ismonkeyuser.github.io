@@ -2,7 +2,7 @@
 layout: post
 title: Design Patterns - Bureaucracy
 date: 2017-09-26T00:00:00.000Z
-position: 50% 50%
+position: 22% 11%
 tags:
   - dev
 comments: true

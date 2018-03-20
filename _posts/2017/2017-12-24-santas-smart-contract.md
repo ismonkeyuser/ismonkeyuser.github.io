@@ -2,7 +2,7 @@
 layout: post
 title: Santa's Smart Contract
 date: 2017-12-24T00:00:00.000Z
-position: 50% 50%
+position: 19% 57%
 tags:
   - dev
 comments: true

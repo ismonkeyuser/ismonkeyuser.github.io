@@ -2,7 +2,7 @@
 layout: post
 title: A Programmer Walks Into A Bar
 date: 2017-07-26T00:00:00.000Z
-position: 0% 30%
+position: 4% 18%
 tags:
   - development
 comments: true
