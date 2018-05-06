@@ -8,7 +8,6 @@
 
     {% assign percentIndex = currentIndex | times: 100 | divided_by:site.posts.size %}
     {% assign era = currentIndex | times: 13 | divided_by:site.posts.size %}
-
     <script>
         function doNavigate(event) {
             var target = $(event.target);
@@ -16,8 +15,8 @@
             let now = event.offsetX;
             let maxPosts = posts.length - 1;
 
-            let index = maxPosts - Math.round(now * maxPosts / max) - 1;
-
+            let index = maxPosts - Math.floor(now * maxPosts / max) - 1;
+            console.log(index, now, max);
             if (posts[index]) {
                 window.location.pathname = posts[index];
             }
@@ -32,16 +31,16 @@
         </div>
 
         {% if page.previous.url %}
-        <div class="thumb initial" title="first">
+        <div class="thumb initial" title="how it all began">
             <script>
                 document.write("<a href=\"");
                 document.write(posts[posts.length - 1]);
-                document.write("\"><img title='first' src='/assets/images/navigation/0.png'/></a>");
+                document.write("\"><img title='how it all began' src='/assets/images/navigation/0.png'/></a>");
             </script>
         </div>
         <div class="thumb prev nobefore" title="previous">
             <a href="{{page.previous.url}}">
-                <img title='previous' src='/assets/images/navigation/p.png'/>
+                <img title='{{page.previous.title}}' src='/assets/images/navigation/p.png'/>
             </a>
         </div>
         {% endif %}
@@ -57,15 +56,15 @@
         {% if page.next.url %}
         <div class="thumb next nobefore" title="next">
             <a href="{{page.next.url}}">
-                <img title='next' src='/assets/images/navigation/n.png'/>
+                <img title='{{page.next.title}}' src='/assets/images/navigation/n.png'/>
             </a>
         </div>
 
-        <div class="thumb last" title="last">
+        <div class="thumb last" title="fresh out of the oven">
             <script>
                 document.write("<a href=\"");
                 document.write(posts[0]);
-                document.write("\"><img title='last' src='/assets/images/navigation/13.png'/></a>");
+                document.write("\"><img title='fresh out of the oven' src='/assets/images/navigation/13.png'/></a>");
             </script>
         </div>
         {% endif %}

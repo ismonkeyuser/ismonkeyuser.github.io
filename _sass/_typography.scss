@@ -14,6 +14,7 @@ body {
 /*--------------
   Link
   -------------- */
+  
 a {
   color: $link-color;
   text-decoration: none;
@@ -21,6 +22,7 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
+    color: darken($link-color, 20%);
   }
 }
 
@@ -254,7 +256,9 @@ img {
   max-width: 100%;
   margin: 0 auto;
   border-radius: 5px;
-
+    @media (min-width: 38em) {
+        max-width: 600px;
+    }
 }
 
 table {

@@ -12,18 +12,7 @@ layout: default
     {% assign content = page.content %}
     {% include navigation.html %}
     <div class="post">
-        <h1 class="post-title">
-            {% if post.link %}
-                <a href="{{ page.link }}">
-            {% else %}
-                <a href="{{ page.url | prepend: site.baseurl }}">
-            {% endif %}
-             {{ page.title }}
-                    {% if page.video %}
-                    {% include video.html %}
-                    {% endif %}
-            </a>
-        </h1>
+        
         <span class="post-date">
           <time>{{ page.date | date_to_string }}</time>
           <span class="tags">

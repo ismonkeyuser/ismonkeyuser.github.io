@@ -32,13 +32,47 @@
   display: block;
 }
 
+$fb-col:      #255c95;
+$twitter-col: #00b4e0;
+$google-plus-col: #f1403a;
+
+.ssk {
+    background-color: transparent !important;
+        
+    &:hover {
+      cursor: pointer;
+    }
+    
+    &.ssk-facebook {
+        color: $fb-col;
+        &:hover {
+          color: lighten($fb-col, 10%);
+        }
+    }
+    
+    &.ssk-twitter {
+        color: $twitter-col;
+        &:hover {
+          color: lighten($twitter-col, 10%);
+        }
+    }
+    
+    &.ssk-google-plus {
+        color: $google-plus-col;
+        &:hover {
+          color: lighten($google-plus-col, 10%);
+        }
+    }    
+}
+
+
+
 .ssk-sm {
   .ssk {
     vertical-align: baseline;
-    border-radius: 4px;
-    width: 74px;
-    height: 28px;
     padding: 1px !important;
+    width: 60px;
+    text-align: center;
     margin-left: 4px;
     margin-right: 4px;
 
@@ -47,3 +81,4 @@
     }
   }
 }
+
