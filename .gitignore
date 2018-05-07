@@ -4,3 +4,4 @@ Gemfile.lock
 _drafts
 .jsbeautifyrc
 .idea
+.DS_Store
