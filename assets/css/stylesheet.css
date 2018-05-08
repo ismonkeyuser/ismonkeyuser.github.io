@@ -45,8 +45,9 @@
 
 .logo {
     display: inline-block;
+    vertical-align: middle;
     background-image: url("../images/logo.svg");
-    background-size: 100px 110px;
-    width: 100px;
-    height: 110px;
+    background-size: 70px 78px;
+    width: 70px;
+    height: 78px;
 }
