@@ -105,6 +105,24 @@ $main-color: #3b54af;
                 margin: 3px;
                 transition: all 0.2s;
             }
+
+            @media (max-width: 38em) {
+                .entry-content {
+                    flex-direction: column;
+
+                    .image-title {
+                        font-size: 10px;
+                        width: 100%;
+                        max-width: 100%;
+                    }
+
+                    .small-image {
+                        width: 90%;
+                        height: 75px;
+                    }
+                }
+
+            }
         }
     }
 }
