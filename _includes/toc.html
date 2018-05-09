@@ -1,5 +1,14 @@
-{% for post in site.posts %}
-<div>
-    <small><strong>{{ post.date | date: "%B %e, %Y" }}</strong></small> - <a href="{{ post.url }}">{{ post.title }}</a>
+<div class="center">
+    <div class="toc">
+        {% for post in site.posts %}
+            <div class="toc-entry">
+                <div class="et">
+                    <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
+                    <div>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </div>
-{% endfor %}
