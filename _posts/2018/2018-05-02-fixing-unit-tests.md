@@ -2,7 +2,7 @@
 layout: post
 title: Fixing Unit Tests
 date: 2018-05-02T00:00:00.000Z
-position: 10% 10%
+position: 81% 61%
 tags:
   - dev
   - tests

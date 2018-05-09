@@ -2,7 +2,7 @@
 layout: post
 title: Code Reuse
 date: 2018-05-08T00:00:00.000Z
-position: 10% 10%
+position: 14% 87%
 tags:
   - dev
 image: 2018/87-code-reuse.png

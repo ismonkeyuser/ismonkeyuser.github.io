@@ -1,4 +1,5 @@
 $line: rgba(64, 64, 64, 1);
+$main-color: #3b54af;
 
 .toc {
     display: inline-block;
@@ -62,7 +63,7 @@ $line: rgba(64, 64, 64, 1);
         position: relative;
 
         .et {
-            border: 1px solid $line;
+            border: 1px solid $main-color;
             padding: 0;
             border-radius: 4px;
             text-align: left;
@@ -71,15 +72,38 @@ $line: rgba(64, 64, 64, 1);
                 padding: 2px 10px;
                 border-radius: 2px 2px 0 0;
                 display: block;
-                font-size: 12px;
+                font-size: 10px;
                 color: white;
-                background-color: #3b54af;
+                background-color: $main-color;
                 margin-bottom: 2px;
             }
 
-            a {
-                font-size: 12px;
+            .entry-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .image-title {
+                display: block;
+                font-size: 14px;
                 padding: 2px 10px;
+                max-width: 50%;
+                width: 100%;
+                text-align: center;
+            }
+
+            .small-image {
+                display: inline-block;
+                vertical-align: top;
+                width: 125px;
+                height: 125px;
+                background-size: 250%;
+                background-repeat: no-repeat;
+                border: 1px solid rgba(0,0,0,0.1);
+                padding: 2px;
+                margin: 3px;
+                transition: all 0.2s;
             }
         }
     }
