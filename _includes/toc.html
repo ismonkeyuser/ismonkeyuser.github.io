@@ -4,9 +4,14 @@
             <div class="toc-entry">
                 <div class="et">
                     <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
-                    <div>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    <div class="entry-content">
+                        <a href="{{ post.url }}" class="image-title">{{ post.title }}</a>
+                        <a href="{{ post.url }}" class="lazyload small-image"
+                           data-src="/assets/images/{{post.image}}"
+                           style="background-position:{{post.position}}"></a>
                     </div>
+
+                    <script>lazyload();</script>
                 </div>
             </div>
         {% endfor %}

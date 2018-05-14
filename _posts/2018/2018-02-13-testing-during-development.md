@@ -2,7 +2,7 @@
 layout: post
 title: Testing during development
 date: 2018-02-13T00:00:00.000Z
-position: 50% 50%
+position: 12% 50%
 tags:
   - dev
 comments: true
