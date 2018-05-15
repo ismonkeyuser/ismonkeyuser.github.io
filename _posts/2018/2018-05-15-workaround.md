@@ -2,7 +2,7 @@
 layout: post
 title: Workaround
 date: 2018-05-15T00:00:00.000Z
-position: 34% 32%
+position: 39% 41%
 tags:
   - dev
   - todo
