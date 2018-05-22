@@ -2,7 +2,7 @@
 layout: post
 title: The Struggle
 date: 2018-03-13T00:00:00.000Z
-position: 9% 18%
+position: 9% 14%
 tags:
   - dev
   - qa

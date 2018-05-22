@@ -2,7 +2,7 @@
 layout: post
 title: Sprint Break
 date: 2018-03-27T00:00:00.000Z
-position: 10% 10%
+position: 6% 8%
 tags:
   - dev
   - qa
