@@ -2,7 +2,7 @@
 layout: post
 title: Refactoring
 date: 2018-06-05T00:00:00.000Z
-position: 13% 20%
+position: 89% 20%
 tags:
   - dev
   - refactoring
