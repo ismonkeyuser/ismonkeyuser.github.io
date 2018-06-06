@@ -261,6 +261,12 @@ img {
     }
 }
 
+.no-max {
+    img {
+        max-width: 100% !important;
+    }
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;

@@ -13,7 +13,7 @@ share: true
 
 ![When stackoverflow is missing the answer]({{ site.url }}/assets/images/2018/76-debugging.png "When stackoverflow is missing the answer")
 
-<div style="text-align: center; margin-top: 60px;">
+<div class="no-max" style="text-align: center; margin-top: 60px;">
   <div style="max-width: 350px; display: inline-block;">
   <div class="center">Created by <a href="https://twitter.com/spectrekelevra"><i class="ssk ssk-icon ssk-twitter"></i>@spectrekelevra</a></div>
   <img src="{{ site.url }}/assets/images/2018/76-debugging-suggestion1.png" alt="Community edit" title="Community edit">
