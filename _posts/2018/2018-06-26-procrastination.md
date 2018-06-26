@@ -7,9 +7,9 @@ tags:
   - dev
   - deadline
   - procrastination
-image: 2018/94-procrastination.png
+image: 2018/94-tbd.png
 published: true
 share: true
 ---
 
-![TBD]({{ site.url }}/assets/images/2018/94-procrastination.png "TBD")
+![TBD]({{ site.url }}/assets/images/2018/94-tbd.png "TBD")
