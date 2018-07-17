@@ -2,7 +2,7 @@
 layout: post
 title: Zeno's Progress
 date: 2018-07-10T00:00:00.000Z
-position: 10% 19%
+position: 61% 37%
 tags:
   - dev
   - progress
