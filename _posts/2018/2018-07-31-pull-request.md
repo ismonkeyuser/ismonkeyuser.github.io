@@ -2,7 +2,7 @@
 layout: post
 title: Pull Request
 date: 2018-07-25T00:00:00.000Z
-position: 91% 11%
+position: 11% 13%
 tags:
   - git
   - pull request
