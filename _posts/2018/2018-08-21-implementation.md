@@ -2,7 +2,7 @@
 layout: post
 title: Implementation
 date: 2018-08-21T00:00:00.000Z
-position: 45% 89%
+position: 8% 10%
 tags:
   - dev
   - architecture
