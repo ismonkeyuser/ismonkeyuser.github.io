@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Replace All
-date: 2018-12-04T00:00:00.000Z
+date: 2018-12-12T00:00:00.000Z
 position: 96% 20%;
 tags:
   - dev
