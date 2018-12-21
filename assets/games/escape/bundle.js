@@ -22,7 +22,8 @@ module.exports = __webpack_require__(/*! /Users/cstefanache/Projects/Personal/ph
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+var ennemies = [];
+var decos = [];
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -77,7 +78,7 @@ function preload() {
     frameHeight: tile_size
   });
 }
-stlet touchup = false;
+let touchup = false;
 function create() {
   var _this = this;
 
@@ -135,10 +136,11 @@ function create() {
       _this.scene.pause();
       started = false;
       setTimeout(function () {
+        decos.length = 0;
+        ennemies.length = 0;
         started = true;
         score = 0;
         scoreText.setText('Press [Up] to start');
-
         _this.scene.restart();
       }, 3000);
     }
@@ -146,8 +148,7 @@ function create() {
   this.physics.add.collider(this.player, platforms);
 }
 
-var ennemies = [];
-var decos = [];
+
 var lastCreated = -1;
 
 function update() {
