@@ -77,9 +77,13 @@ function preload() {
     frameHeight: tile_size
   });
 }
-
+let touchup = false;
 function create() {
   var _this = this;
+
+  var el = document.getElementsByTagName("canvas")[0];
+  el.addEventListener("touchstart", () => {touchup = true}, false);
+  el.addEventListener("touchend", () => {touchup = false}, false);
 
   decoLayer = this.physics.add.group();
   this.player = this.physics.add.sprite(sx, 100, 'player');
@@ -205,12 +209,12 @@ function update() {
     this.player.anims.play('run', true);
   }
 
-  if (cursors.up.isDown && player.body.touching.down) {
+  if ((cursors.up.isDown || touchup) && player.body.touching.down) {
     started = true;
     this.player.anims.play('jump', false);
     jumptimer = time.now;
     player.body.velocity.y = -firstJump;
-  } else if (cursors.up.isDown && jumptimer != 0) {
+  } else if ((cursors.up.isDown || touchup) && jumptimer != 0) {
     if (time.now - jumptimer > 300) {
       jumptimer = 0;
     } else {
