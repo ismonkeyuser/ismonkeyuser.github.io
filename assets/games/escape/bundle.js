@@ -77,7 +77,7 @@ function preload() {
     frameHeight: tile_size
   });
 }
-let touchup = false;
+stlet touchup = false;
 function create() {
   var _this = this;
 
@@ -133,9 +133,9 @@ function create() {
   this.physics.add.collider(this.player, ennemiesLayer, function (p, e) {
     if (p.body.touching.right) {
       _this.scene.pause();
-
+      started = false;
       setTimeout(function () {
-        started = false;
+        started = true;
         score = 0;
         scoreText.setText('Press [Up] to start');
 
