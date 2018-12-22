@@ -89,6 +89,7 @@ function create() {
   decoLayer = this.physics.add.group();
   this.player = this.physics.add.sprite(sx, 100, 'player');
   this.player.setBounce(0.1);
+  this.player.body.setSize(tile_size/2, tile_size, 15, tile_size);
   scoreText = this.add.text(5, 5, 'Press [Up] to start', {
     fontSize: '14px',
     fill: '#000'
