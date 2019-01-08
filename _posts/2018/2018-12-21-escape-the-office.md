@@ -6,8 +6,8 @@ position: 94% 88%;
 tags:
   - game
 image: 2018/76-debugging.png
-published: false
-share: false
+published: true
+share: true
 ---
 <div style="text-align:center">Escape the office. Merry X-Mas everybody</div>
 
