@@ -44,10 +44,10 @@
 }
 
 .logo {
-    display: inline-block;
-    vertical-align: middle;
-    background-image: url("../images/logo.svg");
-    background-size: 70px 78px;
-    width: 70px;
-    height: 78px;
+    background-image: url(../images/logo.svg);
+    background-size: 109px 110px;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 117px;
+    margin: auto;
 }
