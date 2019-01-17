@@ -2,7 +2,7 @@
 layout: post
 title: Great Expectations
 date: 2019-01-15T00:00:00.000Z
-position: 96% 20%;
+position: 11% 14%;
 tags:
   - dev
   - release

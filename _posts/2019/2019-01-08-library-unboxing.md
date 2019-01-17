@@ -2,7 +2,7 @@
 layout: post
 title: Library Unboxing
 date: 2019-01-08T00:00:00.000Z
-position: 96% 20%;
+position: 58% 50%;
 tags:
   - dev
   - library
