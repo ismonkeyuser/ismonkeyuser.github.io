@@ -2,7 +2,7 @@
 layout: post
 title: Replace All
 date: 2018-12-12T00:00:00.000Z
-position: 96% 20%;
+position: 4% 94%;
 tags:
   - dev
   - bugs
