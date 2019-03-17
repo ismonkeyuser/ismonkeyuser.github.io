@@ -1,3 +1,5 @@
+@import 'variables';
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -87,7 +89,6 @@ blink {
   Header
   -------------- */
 .header {
-    padding: 2%;
 
     &-title {
         font-weight: 300;
@@ -499,7 +500,8 @@ blink {
     width: 100%;
     height: 100%;
 }
-$timeline-dark: rgba(0,0,0,.7);
+$timeline-dark: rgba(255,255,255,.8);
+$timeline-marker: $main-color;
 $timeline-height: 3px;
 
 .timeline {
@@ -507,7 +509,7 @@ $timeline-height: 3px;
     background-color: $link-color;
     height: $timeline-height;
     position: relative;
-    margin: 40px 25px 80px;
+    margin: 10px 25px 80px;
     cursor: pointer;
 
     .thumb {
@@ -577,28 +579,29 @@ $timeline-height: 3px;
         height: $timeline-height;
         background-color: $timeline-dark;
         position: relative;
-        margin-top: 40px;
+        margin-top: 20px;
 
         &:before {
             display: block;
             position: absolute;
             left: 0;
-            top: -($timeline-height) / 2;
+            top: -2px;
             width: 100%;
             text-align: center;
             content: ' ';
-            height: $timeline-height + 2;
-            border-left: 1px solid $timeline-dark;
+            height: 8px;
+            border-left: 1px solid $timeline-marker;
         }
 
         &:after {
             display: block;
+            color: $main-color;
             position: absolute;
             content: 'You are here!';
             text-align: center;
             font-size: 12px;
             left: -35px;
-            top: -16px;
+            top: -22px;
             width: 78px;
         }
     }
