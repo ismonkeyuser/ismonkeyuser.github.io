@@ -39,7 +39,7 @@
             </script>
         </div>
         <div class="thumb prev nobefore" title="previous">
-            <a href="{{page.previous.url}}">
+            <a href="{{page.previous.url}}?sc=true">
                 <img title='{{page.previous.title}}' src='/assets/images/navigation/p.png'/>
             </a>
         </div>
@@ -49,13 +49,13 @@
             <script>
                 document.write("<a href=\"");
                 document.write(posts[Math.floor(Math.random() * posts.length)]);
-                document.write("\"><img title='random' src='/assets/images/navigation/r.png'/></a>");
+                document.write("?sc=true\"><img title='random' src='/assets/images/navigation/r.png'/></a>");
             </script>
         </div>
 
         {% if page.next.url %}
         <div class="thumb next nobefore" title="next">
-            <a href="{{page.next.url}}">
+            <a href="{{page.next.url}}?sc=true">
                 <img title='{{page.next.title}}' src='/assets/images/navigation/n.png'/>
             </a>
         </div>
