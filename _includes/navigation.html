@@ -18,7 +18,10 @@
             let index = maxPosts - Math.floor(now * maxPosts / max) - 1;
             console.log(index, now, max);
             if (posts[index]) {
-                window.location.pathname = posts[index];
+                // window.location.search = 'dir=timeline';
+                // window.location.pathname = posts[index];
+                window.location.assign(`${posts[index]}?sc=true&dir=timeline&index=${index}`)
+               
             }
         }
     </script>
@@ -26,21 +29,19 @@
         <div style="margin-left: {{ percentIndex | round}}%" class="current"></div>
 
 
-        <div class="thumb era nobefore" title="era" style="left: {{ percentIndex | round}}%">
-            <img title="era" src="/assets/images/navigation/{{era | round}}.png"/>
-        </div>
-
-        {% if page.previous.url %}
         <div class="thumb initial" title="how it all began">
             <script>
                 document.write("<a href=\"");
                 document.write(posts[posts.length - 1]);
-                document.write("\"><img title='how it all began' src='/assets/images/navigation/0.png'/></a>");
+                document.write(
+                    "?dir=first\"><img title='how it all began' src='/assets/images/navigation/bughelloworld.png?v={{site.version}}'/></a>"
+                );
             </script>
         </div>
+        {% if page.previous.url %}
         <div class="thumb prev nobefore" title="previous">
-            <a href="{{page.previous.url}}">
-                <img title='{{page.previous.title}}' src='/assets/images/navigation/p.png'/>
+            <a href="{{page.previous.url}}?sc=true&dir=previous">
+                <img title='{{page.previous.title}}' src='/assets/images/navigation/p.png' />
             </a>
         </div>
         {% endif %}
@@ -49,27 +50,31 @@
             <script>
                 document.write("<a href=\"");
                 document.write(posts[Math.floor(Math.random() * posts.length)]);
-                document.write("\"><img title='random' src='/assets/images/navigation/r.png'/></a>");
+                document.write(
+                    "?sc=true&dir=random\"><img title='random' src='/assets/images/navigation/random.png'/></a>");
             </script>
         </div>
 
         {% if page.next.url %}
         <div class="thumb next nobefore" title="next">
-            <a href="{{page.next.url}}">
-                <img title='{{page.next.title}}' src='/assets/images/navigation/n.png'/>
+            <a href="{{page.next.url}}?sc=true&dir=next">
+                <img title='{{page.next.title}}' src='/assets/images/navigation/n.png' />
             </a>
         </div>
+        {% endif %}
 
         <div class="thumb last" title="fresh out of the oven">
             <script>
                 document.write("<a href=\"");
                 document.write(posts[0]);
-                document.write("\"><img title='fresh out of the oven' src='/assets/images/navigation/13.png'/></a>");
+                document.write(
+                    "?dir=last\"><img title='fresh out of the oven' src='/assets/images/navigation/bugdeadline.png?v={{site.version}}'/></a>"
+                );
             </script>
         </div>
-        {% endif %}
 
-        <div style="width: 100%; height: 10px; position: absolute; top: 0; left: 0; right: 0; "  onclick="doNavigate(event)"></div>
+
+        <div style="width: 100%; height: 10px; position: absolute; top: 0; left: 0; right: 0; " onclick="doNavigate(event)"></div>
     </div>
 
     <span class="clearfix"></span>
