@@ -2,7 +2,7 @@
 layout: post
 title: Possible Code Contents
 date: 2019-03-26T00:00:00.000Z
-position: 93% 16%;
+position: 49% 53%;
 tags:
   - dev
   - code 
