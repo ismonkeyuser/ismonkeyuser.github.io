@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Conflict Management
-date: 2019-04-09T00:00:00.000Z
+date: 2019-04-16T00:00:00.000Z
 position: 4% 89%;
 tags:
   - dev
