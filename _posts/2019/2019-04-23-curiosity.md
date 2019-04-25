@@ -2,7 +2,7 @@
 layout: post
 title: Curiosity
 date: 2019-04-23T00:00:00.000Z
-position: 95% 8%;
+position: 12% 97%;
 tags:
   - dev
   - source
