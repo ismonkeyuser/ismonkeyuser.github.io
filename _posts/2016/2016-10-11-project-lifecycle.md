@@ -11,3 +11,4 @@ image: 2016/4-project-lifecycle.png
 ---
 
 ![Project Lifecycle]({{ site.url }}/assets/images/2016/4-project-lifecycle.png "Project Lifecycle")
+<script>"A2RBOncYCusW"</script>
