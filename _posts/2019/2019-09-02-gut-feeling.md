@@ -8,7 +8,7 @@ tags:
   - scrum
   - agile
 image: 2019/147-gut-feeling.png
-published: false
+published: true
 share: true
 ---
 
