@@ -5,3 +5,4 @@ _drafts
 .jsbeautifyrc
 .idea
 .DS_Store
+./**/.DS_Store
