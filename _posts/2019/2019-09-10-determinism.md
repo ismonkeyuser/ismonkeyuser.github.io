@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Determinism
-date: 2019-09-09T00:00:00.000Z
+date: 2019-09-10T00:00:00.000Z
 position: 86% 12%;
 tags:
   - specs
