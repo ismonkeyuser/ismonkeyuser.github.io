@@ -2,7 +2,7 @@
 layout: post
 title: Edge Cases
 date: 2019-10-1T00:00:00.000Z
-position: 29% 55%;
+position: 87% 18%;
 tags:
   - feature
   - development
