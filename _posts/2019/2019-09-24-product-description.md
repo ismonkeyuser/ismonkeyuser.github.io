@@ -2,7 +2,7 @@
 layout: post
 title: Product Description
 date: 2019-10-1T00:00:00.000Z
-position: 86% 12%;
+position: 51% 95%;
 tags:
   - bugs
   - dev

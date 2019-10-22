@@ -2,7 +2,7 @@
 layout: post
 title: Tribalism
 date: 2019-09-17T00:00:00.000Z
-position: 86% 12%;
+position: 88% 33%
 tags:
   - bugs
   - tribalism
