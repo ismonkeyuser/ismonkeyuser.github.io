@@ -7,3 +7,4 @@ _drafts
 .DS_Store
 .history
 ./**/.DS_Store
+.jekyll-cache
