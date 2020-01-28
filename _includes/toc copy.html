@@ -1,0 +1,19 @@
+<div class="center">
+    <div class="toc">
+        {% for post in site.posts %}
+            <div class="toc-entry">
+                <div class="et">
+                    <strong>{{ post.date | date: "%B %e, %Y" }}</strong>
+                    <div class="entry-content">
+                        <a href="{{ post.url }}" class="image-title">{{ post.title }}</a>
+                        <a href="{{ post.url }}" class="lazyload small-image"
+                           data-src="/assets/images/{{post.image}}"
+                           style="background-position:{{post.position}}"></a>
+                    </div>
+
+                    <script>lazyload();</script>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
