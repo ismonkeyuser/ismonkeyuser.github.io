@@ -11,4 +11,4 @@ published: true
 share: true
 ---
 
-![Next Level]({{ site.url }}/assets/images/2020/164-next-level.png "This can be fixed only with therapy.")
+![Next Level]({{ site.url }}/assets/images/2020/164-next-level.png "This can only be fixed with therapy.")
