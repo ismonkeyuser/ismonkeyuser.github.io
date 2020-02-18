@@ -2,7 +2,7 @@
 layout: post
 title: Minor Change
 date: 2020-02-11T00:00:00.000Z
-position: 28% 20%;
+position: 8% 28%;
 tags:
   - qa
   - development
