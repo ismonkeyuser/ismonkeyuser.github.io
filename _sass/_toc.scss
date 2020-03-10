@@ -2,6 +2,11 @@
 
 $line: rgba(64, 64, 64, 1);
 
+.toc-year {
+    display: block;
+    margin-top: 10px;
+    font-size: 28px;
+}
 
 .toc {
     display: inline-block;
@@ -20,10 +25,31 @@ $line: rgba(64, 64, 64, 1);
 
     .toc-entry {
         position: relative;
+        padding-top:10px;
+        margin-top: -60px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:hover {
+            &:before {
+                background-color: $main-color;
+                transition: all 200ms;
+            }
+            &:after {
+                border-color: $main-color;
+                transition: all 200ms;
+            }
+            .et {
+                box-shadow: 0 2px 10px 5px rgba(0,0,0, .2);
+                transition: all 200ms;
+            }
+        }
 
         &:before {
             position: absolute;
-            top: 10px;
+            top: 15px;
             bottom: 0;
             right: -6px;
             left: auto;
@@ -38,7 +64,7 @@ $line: rgba(64, 64, 64, 1);
         &:after {
             content: " ";
             position: absolute;
-            top: 15px;
+            top: 20px;
             right: 0;
             left: auto;
             width: 20px;
@@ -102,7 +128,6 @@ $line: rgba(64, 64, 64, 1);
                 height: 125px;
                 background-size: 250%;
                 background-repeat: no-repeat;
-                border: 1px solid rgba(0,0,0,0.1);
                 padding: 2px;
                 margin: 3px;
                 transition: all 0.2s;

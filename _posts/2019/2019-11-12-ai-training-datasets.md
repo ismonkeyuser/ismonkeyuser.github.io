@@ -10,4 +10,4 @@ published: true
 share: true
 ---
 
-![AI Training Datasets]({{ site.url }}/assets/images/2019/157-ai-training-datasets.png "-")
+![AI Training Datasets]({{ site.url }}/assets/images/2019/157-ai-training-datasets.png "Gerbage in, garbage out")
