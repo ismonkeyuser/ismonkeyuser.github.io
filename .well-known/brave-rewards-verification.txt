@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: monkeyuser.com
+Token: e3775ff8c7705da159ddff5a74fcb70bdd03b5e18b459977f45c090c7c08dfd6
