@@ -10,4 +10,4 @@ published: true
 share: true
 ---
 
-![Levels Of Satisfaction]({{ site.url }}/assets/images/2020/169-levels-of-satisfaction.png "TBD")
+![Levels Of Satisfaction]({{ site.url }}/assets/images/2020/169-levels-of-satisfaction.png "Programmers will tell you the best part is writing code, they're lying")
