@@ -76,3 +76,4 @@ plugins:
   - jekyll-paginate
 
 exclude:            [vendor]
+include:            [.well-known]
