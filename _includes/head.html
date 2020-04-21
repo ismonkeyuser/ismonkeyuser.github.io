@@ -4,25 +4,28 @@
   <meta name="description" content="Software development satire in a web comic." />
 
 
-  <meta name="p:domain_verify" content="abaa2ec346dca8ee5f637f4ddc6ca5db"/>
+  <meta name="p:domain_verify" content="abaa2ec346dca8ee5f637f4ddc6ca5db" />
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?v={{site.version}}" type="text/css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/stylesheet.css?v={{site.version}}" type="text/css">
-
+  
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="theme-color" content="#ffffff">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}"
+    href="{{ site.baseurl }}/feed.xml" />
   <script>"Y53fBgrs5qRB"</script>
   <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
-
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+ 
   <meta property="og:site_name" content="{{ site.name }}">
-  <meta property="og:type" content="article" >
+  <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary_large_image">
 
@@ -32,16 +35,16 @@
   {% endif %}
 
   {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta content="{{ page.title }}" property="og:title">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta content="{{ page.title }}" property="og:title">
   {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
-    <meta content="{{ site.title }}" property="og:title">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta content="{{ site.title }}" property="og:title">
   {% endif %}
 
   {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
 
   {% if page.description %}
@@ -53,29 +56,31 @@
   {% endif %}
 
   {% if page.image %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.image }}">
-    <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.image }}" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.image }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.image }}" />
   {% else %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/images/1 - minor bug.png">
-    <meta property="og:image" content="{{ site.url }}/assets/images/{{site.posts.first.image}}" />
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/1 - minor bug.png">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{site.posts.first.image}}" />
   {% endif %}
 
 
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-	<script>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-	"palette": {
-		"popup": {
-		"background": "#FAFAFA"
-		},
-		"button": {
-		"background": "#05A7FF"
-		}
-	}
-	})});
-	</script>
+  <link rel="stylesheet" type="text/css"
+    href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#FAFAFA"
+          },
+          "button": {
+            "background": "#05A7FF"
+          }
+        }
+      })
+    });
+  </script>
 
   {% include google-analytics.html %}
   {% include facebook-pixel.html %}
@@ -106,7 +111,7 @@
     prev = "{{ site.baseurl }}{{page.previous.url}}"
     {% endif %}
 
-    {% if page.next.url  %}
+    {% if page.next.url %}
     next = "{{ site.baseurl }}{{page.next.url}}"
     {% endif %}
 
@@ -115,18 +120,18 @@
     function swipedetect(el, callback) {
 
       var touchsurface = el,
-              swipedir,
-              startX,
-              startY,
-              distX,
-              distY,
-              threshold = 100, //required min distance traveled to be considered swipe
-              restraint = 100, // maximum distance allowed at the same time in perpendicular direction
-              allowedTime = 400, // maximum time allowed to travel that distance
-              elapsedTime,
-              startTime,
-              handleswipe = callback || function (swipedir) {
-                      }
+        swipedir,
+        startX,
+        startY,
+        distX,
+        distY,
+        threshold = 100, //required min distance traveled to be considered swipe
+        restraint = 100, // maximum distance allowed at the same time in perpendicular direction
+        allowedTime = 400, // maximum time allowed to travel that distance
+        elapsedTime,
+        startTime,
+        handleswipe = callback || function (swipedir) {
+        }
 
       touchsurface.addEventListener('touchstart', function (e) {
         var touchobj = e.changedTouches[0]
