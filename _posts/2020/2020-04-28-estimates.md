@@ -5,6 +5,7 @@ date: 2020-04-28T00:00:00.000Z
 position: 92% 14%;
 tags:
   - agile
+  - scrum
   - story points
 image: 2020/174-estimates.png
 published: true
