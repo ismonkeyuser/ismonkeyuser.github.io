@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dev's Journey
-date: 2020-05-19T00:00:00.000Z
+date: 2020-05-26T00:00:00.000Z
 position: -8% 0%;
 tags:
   - code
