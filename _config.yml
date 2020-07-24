@@ -5,7 +5,7 @@
 # Basic
 name:               "MonkeyUser"
 description:        "Software development satire"
-version:            2
+version:            3
 
 author:
   name:             Monkey User
