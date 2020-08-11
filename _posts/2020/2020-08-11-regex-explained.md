@@ -10,4 +10,4 @@ published: true
 share: true
 ---
 
-![Regex Explained]({{ site.url }}/assets/images/2020/184-regex-explained.png "The halftime of you understanding a regex expression is inversely proportional to the length of said regex.")
+![Regex Explained]({{ site.url }}/assets/images/2020/184-regex-explained.png "The halftime of you understanding a regex expression is inversely proportional to the number of capture groups squared.")
