@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /patrons.html
+permalink: /patrons/
 ---
 
 <div class="patreon">
@@ -11,7 +11,7 @@ permalink: /patrons.html
   <div>
     <span class="title">Architect Patrons</span>
     <span class="patron">
-      <img src="assets/patreon/patrons/andrew-murray.png" />
+      <img src="/assets/patreon/patrons/andrew-murray.png" />
       <span>Andrew Murray</span>
     </span>
   </div>
@@ -19,7 +19,7 @@ permalink: /patrons.html
   <div>
     <span class="title">Lead Patrons</span>
     <span class="patron">
-      <img src="assets/patreon/patrons/tudor-luca.png" />
+      <img src="/assets/patreon/patrons/tudor-luca.png" />
       <span>Tudor Luca</span>
     </span>
   </div>
@@ -27,11 +27,11 @@ permalink: /patrons.html
   <div>
     <span class="title">Senior Patrons</span>
     <span class="patron">
-      <img src="assets/patreon/patrons/dana-abrudan.png" />
+      <img src="/assets/patreon/patrons/dana-abrudan.png" />
       <span>Dana Abrudan</span>
     </span>
     <span class="patron">
-      <img src="assets/patreon/patrons/oiza.png" />
+      <img src="/assets/patreon/patrons/oiza.png" />
       <span>Oiza</span>
     </span>
   </div>
@@ -39,27 +39,27 @@ permalink: /patrons.html
   <div class="intermediate">
     <span class="title">Intermediate Patrons</span>
     <span class="patron">
-      <img src="assets/patreon/patrons/intermediate.png" />
+      <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Tony</span>
     </span>
     <span class="patron">
-      <img src="assets/patreon/patrons/intermediate.png" />
+      <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Matthew Bidewell</span>
     </span>
     <span class="patron">
-      <img src="assets/patreon/patrons/intermediate.png" />
+      <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Mivalice Chu</span>
     </span>
     <span class="patron">
-      <img src="assets/patreon/patrons/intermediate.png" />
+      <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Martin Dousek</span>
     </span>
     <span class="patron">
-      <img src="assets/patreon/patrons/intermediate.png" />
+      <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Cheryl</span>
     </span>
     <span class="patron">
-      <img src="assets/patreon/patrons/intermediate.png" />
+      <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Marcela Oliveira</span>
     </span>
   </div>
