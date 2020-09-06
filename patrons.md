@@ -62,5 +62,9 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Marcela Oliveira</span>
     </span>
-  </div>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/intermediate.png" />
+      <span>Johann Klemmack</span>
+    </span>
+    </div>
 </div>
