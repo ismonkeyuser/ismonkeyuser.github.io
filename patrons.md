@@ -14,6 +14,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/andrew-murray.png" />
       <span>Andrew Murray</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/anna-dubovitskaya.png" />
+      <span>Anna Dubovitskaya</span>
+    </span>
   </div>
 
   <div>
