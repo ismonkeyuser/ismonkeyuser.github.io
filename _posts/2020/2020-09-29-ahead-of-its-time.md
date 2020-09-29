@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ahead of its time
-date: 2020-09-2pT00:00:00.000Z
+date: 2020-09-29T00:00:00.000Z
 position: 54% 2%;
 tags:
   - early feedback
