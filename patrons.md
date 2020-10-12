@@ -42,6 +42,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/oiza.png" />
       <span>Oiza</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/arcaneous.png" />
+      <span>Arcaneous</span>
+    </span>
   </div>
 
   <div class="intermediate">
