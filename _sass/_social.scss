@@ -83,6 +83,21 @@ $google-plus-col: #f1403a;
 .patreon {
   text-align: center;
 
+  .fixed {    
+    .patron {
+      opacity: 0.7;
+
+      img {
+        width: 100px !important;
+        height: 100px !important;
+      }
+
+      span {
+        font-size: 14px !important;
+      }
+    }
+  }
+
   .intermediate {
     .patron {
       img {

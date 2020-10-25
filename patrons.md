@@ -53,11 +53,7 @@ permalink: /patrons/
     <span class="patron">
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Tony</span>
-    </span>
-    <span class="patron">
-      <img src="/assets/patreon/patrons/intermediate.png" />
-      <span>Matthew Bidewell</span>
-    </span>
+    </span>  
     <span class="patron">
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Mivalice Chu</span>
@@ -78,5 +74,12 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Johann Klemmack</span>
     </span>
-    </div>
+  </div>
+  <div class="fixed">
+    <span class="title">Fixed</span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/intermediate.png" />
+      <span>Matthew Bidewell</span>
+    </span>
+  </div>
 </div>
