@@ -7,7 +7,7 @@ tags:
   - startup
   - funding
 image: 2020/194-get-funded.png
-published: false
+published: true
 share: true
 ---
 
