@@ -12,3 +12,5 @@ share: true
 ---
 
 ![Get Funded]({{ site.url }}/assets/images/2020/194-get-funded.png "now on Kickstarter")
+
+![Get Funded: Expansion Packs]({{ site.url }}/assets/images/2020/194-1-get-funded.png "now on Kickstarter")
