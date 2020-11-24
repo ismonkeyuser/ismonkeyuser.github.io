@@ -46,14 +46,14 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/arcaneous.png" />
       <span>Arcaneous</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/lokajit-tikayatray.png" />
+      <span>Lokajit Tikayatray</span>
+    </span>
   </div>
 
   <div class="intermediate">
-    <span class="title">Intermediate Patrons</span>
-    <span class="patron">
-      <img src="/assets/patreon/patrons/intermediate.png" />
-      <span>Tony</span>
-    </span>  
+    <span class="title">Intermediate Patrons</span>    
     <span class="patron">
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Mivalice Chu</span>
