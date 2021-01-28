@@ -8,7 +8,6 @@ tags:
   - bugfixing
 comments: true
 image: 2017/41-easter-eggs.png
-video: DJGNi3ikLtg
 published: true
 share: true
 ---
