@@ -16,6 +16,20 @@ html {
     }
 }
 
+.download {
+    display: inline-block;
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+    span {
+        display: block;
+        text-align: center;
+    }
+}
+
 #ytplayer {
     margin: 0 auto;
 }
@@ -23,7 +37,7 @@ html {
 .video-container {
     overflow: hidden;
     position: relative;
-    width:100%;
+    width: 100%;
 }
 
 .video-container::after {
@@ -96,8 +110,8 @@ html {
 }
 
 .news {
-    background-color: #05A7FF;
-    color: #FFF;
+    background-color: #05a7ff;
+    color: #fff;
     display: inline-block;
     padding: 2px 6px;
     margin-top: 20px;
@@ -115,7 +129,6 @@ blink {
   Header
   -------------- */
 .header {
-
     &-title {
         font-weight: 300;
 
@@ -176,6 +189,15 @@ blink {
   -------------- */
 .page {
     text-align: justify;
+
+    &.centered-layout {
+        margin-top: 50px;
+        text-align: center;
+
+        h1 {
+            margin-bottom: 50px;
+        }
+    }
 
     &-title {
         margin-bottom: 2rem;
@@ -390,7 +412,8 @@ blink {
     font-size: 24px;
     text-align: center;
 
-    a {}
+    a {
+    }
     @media (max-width: 38em) {
         > a {
             font-size: 16px;
@@ -483,7 +506,7 @@ blink {
         height: 125px;
         background-size: 250%;
         background-repeat: no-repeat;
-        border: 1px solid rgba(0,0,0,.6);
+        border: 1px solid rgba(0, 0, 0, 0.6);
         padding: 2px;
         margin: 3px;
         transition: all 0.2s;
@@ -497,7 +520,7 @@ blink {
 .ad-thumb {
     width: 125px;
     height: 125px;
-    border: 1px solid rgba(0,0,0,.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
     padding: 2px;
     border-radius: 2px;
     // box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
@@ -526,7 +549,7 @@ blink {
     width: 100%;
     height: 100%;
 }
-$timeline-dark: rgba(255,255,255,.8);
+$timeline-dark: rgba(255, 255, 255, 0.8);
 $timeline-marker: $main-color;
 $timeline-height: 3px;
 
@@ -540,7 +563,7 @@ $timeline-height: 3px;
 
     .thumb {
         position: absolute;
-        background-color: rgba(255,255,255,.9);
+        background-color: rgba(255, 255, 255, 0.9);
         top: 10px;
         width: 50px;
         height: 50px;
