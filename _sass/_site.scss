@@ -15,18 +15,20 @@ html {
         font-size: 20px;
     }
 }
+.wallpapers {
+    display: block;
+    .download {
+        display: inline-block;
 
-.download {
-    display: inline-block;
+        img {
+            width: auto;
+            height: 250px;
+        }
 
-    img {
-        width: 250px;
-        height: 250px;
-    }
-
-    span {
-        display: block;
-        text-align: center;
+        span {
+            display: block;
+            text-align: center;
+        }
     }
 }
 
