@@ -47,7 +47,7 @@ permalink: /patrons/
       <span>Lokajit Tikayatray</span>
     </span>
     <span class="patron">
-      <img src="/assets/patreon/patrons/christian-buntrocky.png" />
+      <img src="/assets/patreon/patrons/christian-buntrock.png" />
       <span>Christian Buntrock</span>
     </span>
   </div>
