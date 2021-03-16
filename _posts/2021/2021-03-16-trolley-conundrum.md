@@ -10,5 +10,4 @@ image: 2021/209-trolley-conundrum.png
 published: true
 share: true
 ---
-
-![Trolley Conundrum]({{ site.url }}/assets/images/2021/209-trolley-conundrum.png "")
+![Trolley Conundrum]({{ site.url }}/assets/images/2021/209-trolley-conundrum.png "Or the illusion of choice")
