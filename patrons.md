@@ -38,7 +38,6 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/dana-abrudan.png" />
       <span>Dana Abrudan</span>
     </span>
-    
     <span class="patron">
       <img src="/assets/patreon/patrons/arcaneous.png" />
       <span>Arcaneous</span>
@@ -46,6 +45,10 @@ permalink: /patrons/
     <span class="patron">
       <img src="/assets/patreon/patrons/lokajit-tikayatray.png" />
       <span>Lokajit Tikayatray</span>
+    </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/christian-buntrock.png" />
+      <span>Christian Buntrock</span>
     </span>
   </div>
 
