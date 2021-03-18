@@ -74,6 +74,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>Johann Klemmack</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/intermediate.png" />
+      <span>MadMax++</span>
+    </span>
   </div>
   <div class="fixed">
     <span class="title">Fixed</span>
@@ -85,5 +89,6 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/oiza.png" />
       <span>Oiza</span>
     </span>
+  
   </div>
 </div>
