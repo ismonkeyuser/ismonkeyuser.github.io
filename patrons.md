@@ -50,6 +50,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/christian-buntrock.png" />
       <span>Christian Buntrock</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/jovan-mahacek.png" />
+      <span>Jovan Mahaček</span>
+    </span>
   </div>
 
   <div class="intermediate">
