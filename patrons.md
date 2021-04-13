@@ -82,6 +82,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/intermediate.png" />
       <span>MadMax++</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/intermediate.png" />
+      <span>Craig Brandt</span>
+    </span>  
   </div>
   <div class="fixed">
     <span class="title">Fixed</span>
