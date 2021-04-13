@@ -87,16 +87,5 @@ permalink: /patrons/
       <span>Craig Brandt</span>
     </span>  
   </div>
-  <div class="fixed">
-    <span class="title">Fixed</span>
-    <span class="patron">
-      <img src="/assets/patreon/patrons/intermediate.png" />
-      <span>Matthew Bidewell</span>
-    </span>
-    <span class="patron">
-      <img src="/assets/patreon/patrons/oiza.png" />
-      <span>Oiza</span>
-    </span>
   
-  </div>
 </div>
