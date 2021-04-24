@@ -1,46 +1,60 @@
 <header class="content-container header">
-    <div class="center">
-        <h2 class="header-title">
-            <div class="logo"></div>
-            <a href="/">{{ site.name }}.com</a>
-        </h2>
-        <!-- <div> var menu = [ <a href="/">"home"</a>, <a href="/toc">"list"</a>, <a href="/about/index.html">"about"</a> ];
+  <div class="center">
+    <h2 class="header-title">
+      <div class="logo"></div>
+      <a href="/">{{ site.name }}.com</a>
+    </h2>
+    <!-- <div> var menu = [ <a href="/">"home"</a>, <a href="/toc">"list"</a>, <a href="/about/index.html">"about"</a> ];
         </div> -->
-        <div class="text-center social-links">
-            <a href="/toc" id="list">COMICS LIST</a>
-            <a href="/wallpapers/index.html">WALLPAPERS</a>
-            <a href="/about/index.html">ABOUT</a>
-        </div>
-        <div class="text-center social-links">
-            <a href="https://store.monkeyuser.com" style='color:#05A7FF;'>🛒 SHOP</a>
-            <a href="/patrons/index.html" style="color: rgb(231, 81, 59)">PATRONS</a>
-<!--             <a href="https://rarible.com/monkeyuser?tab=collectibles" style='color:#eb7734'>NFT</a> -->
-        </div>
-        <div class="text-center social-links">
-            <a href="https://twitter.com/ismonkeyuser" target="_blank">TWITTER</a>
-            <a href="https://facebook.com/ismonkeyuser" target="_blank">FACEBOOK</a>
-            <a href="https://instagram.com/themonkeyuser" target="_blank">INSTAGRAM</a>
-<!--             <a href="https://t.me/ismonkeyuser" target="_blank">TELEGRAM</a> -->
-            
-            <!-- <a href="https://www.tumblr.com/blog/ismonkeyuser" target="_blank">TUMBLR</a> -->
-        </div>
-        
-        {% if site.author.news %}
-            
-            <div>                
-                <a href="https://store.monkeyuser.com/collections/frontpage/products/bug"><img src="{{ site.url }}/assets/images/bug-buy.png" style="height:40px; display:inline-block; vertical-align: middle;"/></a>
-                <a href="https://store.monkeyuser.com"><span class="news">{{ site.author.news }}</span></a>
-                <a href="https://store.monkeyuser.com/collections/frontpage/products/developer"><img src="{{ site.url }}/assets/images/dev-buy.png" style="height:40px; display:inline-block; vertical-align: middle;"/></a>
-            </div>
-        {% endif %}
+    <div class="text-center social-links">
+      <a href="/toc" id="list">COMICS LIST</a>
+      <a href="/wallpapers/index.html">WALLPAPERS</a>
+      <a href="/about/index.html">ABOUT</a>
     </div>
-    <nav class="header-nav">
-        {% for nav in site.nav %}
-            {% if nav.url contains 'http://' or nav.url contains 'https://' %}
-                <a href="{{ nav.url }}">{{ nav.name }}</a>
-            {% else %}
-                <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
-            {% endif %}
-        {% endfor %}
-    </nav>
+    <div class="text-center social-links">
+      <a href="https://store.monkeyuser.com" style="color: #180083">🛒 SHOP</a>
+      <a href="/patrons/index.html" style="color: rgb(173, 23, 0)">PATRONS</a>
+      <!--             <a href="https://rarible.com/monkeyuser?tab=collectibles" style='color:#eb7734'>NFT</a> -->
+    </div>
+    <div class="text-center social-links">
+      <a href="https://twitter.com/ismonkeyuser" target="_blank">TWITTER</a>
+      <a href="https://facebook.com/ismonkeyuser" target="_blank">FACEBOOK</a>
+      <a href="https://instagram.com/themonkeyuser" target="_blank"
+        >INSTAGRAM</a
+      >
+      <!--             <a href="https://t.me/ismonkeyuser" target="_blank">TELEGRAM</a> -->
+
+      <!-- <a href="https://www.tumblr.com/blog/ismonkeyuser" target="_blank">TUMBLR</a> -->
+    </div>
+
+    {% if site.author.news %}
+
+    <div>
+      <a href="https://store.monkeyuser.com/collections/frontpage/products/bug"
+        ><img
+          alt="Bug Plushie"
+          src="{{ site.url }}/assets/images/bug-buy.png"
+          style="height: 40px; display: inline-block; vertical-align: middle"
+      /></a>
+      <a href="https://store.monkeyuser.com"
+        ><span class="news">{{ site.author.news }}</span></a
+      >
+      <a
+        href="https://store.monkeyuser.com/collections/frontpage/products/developer"
+        ><img
+          alt="Dev Plushie"
+          src="{{ site.url }}/assets/images/dev-buy.png"
+          style="height: 40px; display: inline-block; vertical-align: middle"
+      /></a>
+    </div>
+    {% endif %}
+  </div>
+  <nav class="header-nav">
+    {% for nav in site.nav %} {% if nav.url contains 'http://' or nav.url
+    contains 'https://' %}
+    <a href="{{ nav.url }}">{{ nav.name }}</a>
+    {% else %}
+    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+    {% endif %} {% endfor %}
+  </nav>
 </header>
