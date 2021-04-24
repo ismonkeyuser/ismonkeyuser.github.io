@@ -74,6 +74,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-sitemap
 
 exclude:            [vendor]
 include:            [.well-known]
