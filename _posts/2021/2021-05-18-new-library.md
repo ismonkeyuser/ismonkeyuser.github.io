@@ -10,4 +10,4 @@ image: 2021/216-new-library.png
 published: true
 share: true
 ---
-![New Library]({{ site.url }}/assets/images/2021/216-new-library "New is not always better")
+![New Library]({{ site.url }}/assets/images/2021/216-new-library.png "New is not always better")
