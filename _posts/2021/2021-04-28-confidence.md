@@ -2,7 +2,7 @@
 layout: post
 title: Confidence
 date: 2021-04-28T00:00:00.000Z
-position: 12% 70%; 
+position: 10% 19%; 
 tags:
   - confidence
   - pull request
