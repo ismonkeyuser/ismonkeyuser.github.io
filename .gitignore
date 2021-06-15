@@ -8,3 +8,5 @@ _drafts
 .history
 ./**/.DS_Store
 .jekyll-cache
+vendor
+.bundle
