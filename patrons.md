@@ -54,6 +54,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/jovan-mahacek.png" />
       <span>Jovan Mahaček</span>
     </span>
+     <span class="patron">
+      <img src="/assets/patreon/patrons/linus-w.png" />
+      <span>Linus W</span>
+    </span>
   </div>
 
   <div class="intermediate">
