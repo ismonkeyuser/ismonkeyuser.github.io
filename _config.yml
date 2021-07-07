@@ -81,5 +81,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-exclude:            [vendor]
+exclude:            
+  - vendor
+  - .jekyll-cache
 include:            [.well-known]
