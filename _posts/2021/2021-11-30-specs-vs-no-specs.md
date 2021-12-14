@@ -3,7 +3,7 @@ layout: post
 title: Specs VS No Specs
 date: 2021-11-30T00:00:00.000Z
 position: 86% 15%;
-tags: specs, no specs
+tags: specs
 image: 2021/232-specs-vs-no-specs.png
 published: true
 share: true
