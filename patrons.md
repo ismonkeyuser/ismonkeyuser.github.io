@@ -18,11 +18,11 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/anna-dubovitskaya.png" />
       <span>Anna Dubovitskaya</span>
     </span>
-     <span class="patron">
+     <!-- <span class="patron">
       <img src="/assets/patreon/patrons/daniel-gorgan.png" />
       <span>Daniel Gorgan</span>
     </span>
-  </div>
+  </div> -->
 
   <div>
     <span class="title">Lead Patrons</span>
