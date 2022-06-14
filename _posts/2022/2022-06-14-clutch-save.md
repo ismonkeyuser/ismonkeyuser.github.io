@@ -3,7 +3,7 @@ layout: post
 title: Clutch Save
 date: 2022-06-14T00:00:00.000Z
 position: 87% 14%;
-tags: ai ml agi
+tags: deadline release
 image: 2022/244-clutch-save.png
 published: true
 share: true
