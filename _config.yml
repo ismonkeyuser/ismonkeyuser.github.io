@@ -84,4 +84,5 @@ plugins:
 exclude:            
   - vendor
   - .jekyll-cache
+  - assets/sections
 include:            [.well-known]
