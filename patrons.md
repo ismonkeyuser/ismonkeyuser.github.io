@@ -10,26 +10,26 @@ permalink: /patrons/
 
   <div>
     <span class="title">Architect Patrons</span>
-    <!-- <span class="patron">
-      <img src="/assets/patreon/patrons/andrew-murray.png" />
-      <span>Andrew Murray</span>
-    </span> -->
     <span class="patron">
       <img src="/assets/patreon/patrons/anna-dubovitskaya.png" />
       <span>Anna Dubovitskaya</span>
     </span>
-     <!-- <span class="patron">
+    <span class="patron">
       <img src="/assets/patreon/patrons/daniel-gorgan.png" />
       <span>Daniel Gorgan</span>
     </span>
-  </div> -->
+     <span class="patron">
+      <img src="/assets/patreon/patrons/webequipetechnique.png" />
+      <span>Web Equipe Technique</span>
+    </span>
+  </div>
 
   <div>
     <span class="title">Lead Patrons</span>
-    <span class="patron">
+    <!-- <span class="patron">
       <img src="/assets/patreon/patrons/tudor-luca.png" />
       <span>Tudor Luca</span>
-    </span>
+    </span> -->
     <span class="patron">
       <img src="/assets/patreon/patrons/vrusu.png" />
       <span>Vasile Rusu</span>
@@ -42,18 +42,18 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/dana-abrudan.png" />
       <span>Dana Abrudan</span>
     </span>
-    <span class="patron">
+    <!-- <span class="patron">
       <img src="/assets/patreon/patrons/arcaneous.png" />
       <span>Arcaneous</span>
-    </span>
+    </span> -->
     <!-- <span class="patron">
       <img src="/assets/patreon/patrons/lokajit-tikayatray.png" />
       <span>Lokajit Tikayatray</span>
     </span> -->
-    <span class="patron">
+    <!-- <span class="patron">
       <img src="/assets/patreon/patrons/christian-buntrock.png" />
       <span>Christian Buntrock</span>
-    </span>
+    </span> -->
     <span class="patron">
       <img src="/assets/patreon/patrons/jovan-mahacek.png" />
       <span>Jovan Mahaček</span>
@@ -62,10 +62,11 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/linus-w.png" />
       <span>Linus W</span>
     </span> -->
-    <span class="patron">
+   <span class="patron">
       <img src="/assets/patreon/patrons/andrei-dyldin.png" />
       <span>Andrei Dyldin</span>
     </span>
+    <!-- 
     <span class="patron">
       <img src="/assets/patreon/patrons/pablok.png" />
       <span>Pablo K.</span>
@@ -73,7 +74,7 @@ permalink: /patrons/
     <span class="patron">
       <img src="/assets/patreon/patrons/senior.png" />
       <span>Martin Dousek</span>
-    </span>
+    </span> -->
   </div>
 
   <div class="intermediate">
