@@ -20,7 +20,7 @@ permalink: /patrons/
     </span>
      <span class="patron">
       <img src="/assets/patreon/patrons/webequipetechnique.png" />
-      <span>Web Equipe Technique</span>
+      <span>Equipe Technique</span>
     </span>
   </div>
 
