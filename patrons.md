@@ -66,6 +66,10 @@ permalink: /patrons/
       <img src="/assets/patreon/patrons/andrei-dyldin.png" />
       <span>Andrei Dyldin</span>
     </span>
+    <span class="patron">
+      <img src="/assets/patreon/patrons/tony.png" />
+      <span>Tony</span>
+    </span>
     <!-- 
     <span class="patron">
       <img src="/assets/patreon/patrons/pablok.png" />
