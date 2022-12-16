@@ -9,5 +9,5 @@ published: true
 share: true
 ---
 
-![Taking Care of Business]({{ site.url }}/assets/images/2022/256-business-care.png ".")
+![Taking Care of Business]({{ site.url }}/assets/images/2022/256-business-care.png "Never interrupt your enemy when he is making a mistake. — Napoleon Bonaparte")
 
