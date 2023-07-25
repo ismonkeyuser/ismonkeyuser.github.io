@@ -10,3 +10,4 @@ share: true
 ---
 
 ![Deprecated]({{ site.url }}/assets/images/2023/263-deprecated.png "To be or not to be? That is the dependency!")
+
