@@ -1,7 +1,7 @@
 ---
 layout: post
 title: History of Debugging
-date: 2023-04-03T00:00:00.000Z
+date: 2023-07-18T00:00:00.000Z
 position: 87% 18%;
 tags: ai debugging 
 image: 2023/262-history-of-debugging.png
