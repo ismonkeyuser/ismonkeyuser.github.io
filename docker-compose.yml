@@ -1,10 +1,11 @@
 version: '3.3'
 services:
   jekyll:
-    image: jekyll/jekyll:latest
-    command: jekyll serve --livereload --drafts --force_polling
+    image: jekyll/jekyll
+    command: jekyll serve --livereload --drafts --force_polling --incremental
     ports:
       - 4000:4000
       - 35729:35729
     volumes:
       - .:/srv/jekyll
+      - ./vendor/bundle/:/usr/local/bundle
