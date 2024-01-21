@@ -1,0 +1,10 @@
++++
+title = 'Schmuck'
+date = 2020-06-23T00:00:00.000Z
+position = '86% 17%;'
+image = '2020/180-schmuck.png'
+published = true
+share = true
++++
+
+![Schmuck](/2020/schmuck/180-schmuck.png "you've really got to be some schmuck to fall for that one")

@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ $allPosts := .Site.RegularPages }}
+{{ $.Scratch.Set "currentIndex" 0 }}
+{{ range $index, $page := $allPosts }}
+{{ if eq $page.Permalink $.Permalink }}
+{{ $.Scratch.Set "currentIndex" (add $index 1) }}
+{{ end }}
+{{ end }}
+
+{{ $currentIndex := $.Scratch.Get "currentIndex"}}
+{{ $totalPages := len $allPosts }}
+{{ $totalPages := sub $totalPages 1 }}
+{{ $percentage := sub 100 (mul (div $currentIndex (float $totalPages)) 100) }}
+
+<div class="pagination">
+  {{ if .PrevPage }}
+  <a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
+  {{ end }}
+  <div class="progress-bar">
+    <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
+  </div>
+  {{ if .NextPage }}
+  <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
+  {{ end }}
+</div>
+
+{{ partial "comic.html" .}}
+
+<div class="pagination">
+  {{ if .PrevPage }}
+  <a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
+  {{ end }}
+  <div class="progress-bar">
+    <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
+  </div>
+  {{ if .NextPage }}
+  <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
+  {{ end }}
+</div>
+
+
+{{ end }}

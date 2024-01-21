@@ -1,0 +1,16 @@
+{{ $totalPages := .Paginator.TotalPages}}
+{{ $currentPage := sub .Paginator.PageNumber 1}}
+{{ $percentage := sub 100 (mul (div $currentPage (float $totalPages)) 100) }}
+
+<div class="pagination">
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">Prev</a>
+    {{ end }}
+    <div class="progress-bar">
+        <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
+    </div>
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">Next</a>
+    {{ end }}
+    
+</div>
