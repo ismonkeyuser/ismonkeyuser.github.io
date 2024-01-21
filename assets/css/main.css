@@ -126,7 +126,7 @@ a {
   display: block;
   border-radius: 5px;
   border: 2px solid #000;
-  padding: 10px 20px;
+  padding: 15px 5px;
   position: relative;
 }
 
@@ -160,6 +160,7 @@ a {
 }
 
 .video-container {
+  margin-top:20px;
   overflow: hidden;
   position: relative;
   width: 100%;
