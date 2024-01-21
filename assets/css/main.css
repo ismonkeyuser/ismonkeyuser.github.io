@@ -124,8 +124,10 @@ a {
   background-color: #FFF;
   max-width: 100%;
   display: block;
-  border-radius: 5px;
-  border: 2px solid #000;
+  border-radius: 10px;
+  border-width: 2px 4px 4px 2px;
+  border-style: solid;
+  border-color: #000;
   padding: 15px 5px;
   position: relative;
 }
