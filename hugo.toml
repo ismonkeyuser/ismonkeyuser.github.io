@@ -1,0 +1,18 @@
+baseURL = 'https://monkeyuser.com/'
+languageCode = 'en-us'
+title = 'Monkeyuser'
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Tags'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ $paginator := .Paginate (.Site.RegularPages) }}
+
+{{ partial "pagination.html" . }}
+
+{{ range $paginator.Pages }}
+
+{{ partial "comic.html" .}}
+{{ end }}
+
+{{ partial "pagination.html" . }}
+
+
+{{ end }}

@@ -1,0 +1,36 @@
+{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+{{ $dateHuman := .Date | time.Format ":date_long" }}
+<div class="comic">
+    <a href="{{ .RelPermalink }}?ref=comic"><time datetime="{{ $dateMachine }}">🗓️ {{ $dateHuman }}</time></a>
+
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    {{ with .Params.video }}
+    <div class="video-container">
+        <div id="ytplayer"></div>
+    </div>
+    <script>
+        // Load the IFrame Player API code asynchronously.
+        var tag = document.createElement("script");
+        tag.src = "https://www.youtube.com/player_api";
+        var firstScriptTag = document.getElementsByTagName("script")[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // Replace the 'ytplayer' element with an <iframe> and
+        // YouTube player after the API code downloads.
+        var player;
+        function onYouTubePlayerAPIReady() {
+            player = new YT.Player("ytplayer", {
+                videoId: "{{ . }}",
+            });
+        }
+    </script>
+
+    {{ end }}
+
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+
+</div>
