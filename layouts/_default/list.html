@@ -1,8 +1,16 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+{{ $isSectionRoot := eq .RelPermalink "/tags/" }}
+<h1 class="tag">{{ .Title }}</h1>
+
+
+{{ range .Pages }}
+{{ if $isSectionRoot }}
+<div class="tags">
+  <a class="tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+</div>
+{{ else }}
+{{ partial "comic.html" .}}
+{{ end }}
+{{ end }}
+
 {{ end }}

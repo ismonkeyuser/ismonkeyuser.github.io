@@ -10,5 +10,3 @@ share = true
 
 ![AGI Debate](/2022/agi-debate/241-agi-debate.png "Machine intelligence is the last invention that humanity will ever need to make. -Nick Bostrom")
 
-Extra Panel:
-<img src="{{site.url}}/assets/sections/241/241-5.png" style="width: 500px">
