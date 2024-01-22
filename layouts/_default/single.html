@@ -14,13 +14,14 @@
 
 <div class="pagination">
   {{ if .PrevPage }}
-  <a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
+  <a class="button link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
   {{ end }}
   <div class="progress-bar">
     <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
   </div>
+  <div class="button random" onclick="random()">Random</div>
   {{ if .NextPage }}
-  <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
+  <a class="button link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
   {{ end }}
 </div>
 
@@ -28,13 +29,14 @@
 
 <div class="pagination">
   {{ if .PrevPage }}
-  <a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
+  <a class="button link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
   {{ end }}
   <div class="progress-bar">
     <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
   </div>
+  <div class="button random" onclick="random()">Random</div>
   {{ if .NextPage }}
-  <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
+  <a class="button link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
   {{ end }}
 </div>
 

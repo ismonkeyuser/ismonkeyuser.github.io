@@ -1,5 +1,5 @@
 {{- with resources.Get "images/logo.png" }}
-    <img src="{{ .RelPermalink }}" width="100" height="100" alt="MonkeyUser" />
+    <a href="/"><img src="{{ .RelPermalink }}" width="100" height="100" alt="MonkeyUser" /></a>
 {{- end}}
 <h1>MonkeyUser</h1>
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
