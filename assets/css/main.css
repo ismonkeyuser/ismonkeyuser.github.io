@@ -49,6 +49,26 @@ footer {
   text-align: center;
 }
 
+@media (max-width: 38rem) {
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header ul li {
+    margin: 0 5px;
+  }
+
+  
+  header .button, main .button {
+    padding: 2px 5px;
+  }
+}
+
 @media (min-width: 38rem) {
   main, header, footer {
     padding: 0.2rem 1rem;
@@ -239,6 +259,7 @@ a {
 .button {
   display: inline-block;
   padding: 5px 10px;
+  margin-top: 5px;
   background-color: #fffa6d;
   border-radius: 5px;
   border-width: 2px 4px 4px 2px;
