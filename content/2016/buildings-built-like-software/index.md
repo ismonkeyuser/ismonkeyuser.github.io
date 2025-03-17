@@ -4,7 +4,6 @@ date = 2016-12-15T00:00:00.000Z
 position = '9% 47%'
 comments = true
 image = '2016/20-architecture.png'
-published = true
 share = true
 +++
 

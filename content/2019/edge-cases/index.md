@@ -3,7 +3,6 @@ title = 'Edge Cases'
 date = 2019-10-15T00:00:00.000Z
 position = '87% 18%;'
 image = '2019/153-edge-cases.png'
-published = true
 share = true
 +++
 

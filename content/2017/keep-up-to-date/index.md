@@ -4,7 +4,6 @@ date = 2017-06-13T00:00:00.000Z
 position = '85% 40%'
 comments = true
 image = '2017/49-keep-up-to-date.png'
-published = true
 share = true
 +++
 

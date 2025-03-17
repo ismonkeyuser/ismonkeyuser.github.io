@@ -4,7 +4,6 @@ date = 2017-09-12T00:00:00.000Z
 position = '0% 30%'
 comments = true
 image = '2017/60-productive-scrum-meetings.png'
-published = true
 share = true
 +++
 

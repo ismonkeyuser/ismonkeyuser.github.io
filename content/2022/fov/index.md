@@ -4,7 +4,6 @@ date = 2022-02-01T00:00:00.000Z
 position = '11% 96%;'
 tags = ['bug', 'dev', 'fov']
 image = '2022/237-fov.png'
-published = true
 share = true
 +++
 

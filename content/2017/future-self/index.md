@@ -4,7 +4,6 @@ date = 2017-08-08T00:00:00.000Z
 position = '12% 52%'
 comments = true
 image = '2017/57-future-self.png'
-published = true
 share = true
 +++
 

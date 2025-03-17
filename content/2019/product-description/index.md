@@ -3,7 +3,6 @@ title = 'Product Description'
 date = 2019-10-01T00:00:00.000Z
 position = '51% 95%;'
 image = '2019/151-product-description.png'
-published = true
 share = true
 +++
 

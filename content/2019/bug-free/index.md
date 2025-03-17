@@ -3,7 +3,6 @@ title = 'Bug Free'
 date = 2019-04-30T00:00:00.000Z
 position = '12% 97%;'
 image = '2019/131-bug-free.png'
-published = true
 share = true
 +++
 

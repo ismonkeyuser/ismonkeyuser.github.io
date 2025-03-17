@@ -4,7 +4,6 @@ date = 2022-01-25T00:00:00.000Z
 position = '11% 18%;'
 tags = ['bug', 'dev', 'qa', 'feature']
 image = '2022/236-buglog.png'
-published = true
 share = true
 +++
 

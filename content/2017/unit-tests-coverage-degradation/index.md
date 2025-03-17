@@ -4,7 +4,6 @@ date = 2017-05-09T00:00:00.000Z
 position = '11% 30%'
 comments = true
 image = '2017/44-unit-tests-coverage-degradation.png'
-published = true
 share = true
 +++
 

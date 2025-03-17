@@ -13,30 +13,30 @@
 {{ $percentage := sub 100 (mul (div $currentIndex (float $totalPages)) 100) }}
 
 <div class="pagination">
-  {{ if .PrevPage }}
-  <a class="button link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
+  {{ if .Prev }}
+  <a class="button link-reverse" href="{{ .Prev.Permalink }}?ref=footer">Prev Page</a>
   {{ end }}
   <div class="progress-bar">
     <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
   </div>
   <div class="button random" onclick="random()">Random</div>
-  {{ if .NextPage }}
-  <a class="button link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
+  {{ if .Next }}
+  <a class="button link-reverse" href="{{ .Next.Permalink }}?ref=footer">Next Page</a>
   {{ end }}
 </div>
 
 {{ partial "comic.html" .}}
 
 <div class="pagination">
-  {{ if .PrevPage }}
-  <a class="button link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">Prev</a>
+  {{ if .Prev }}
+  <a class="button link-reverse" href="{{ .Prev.Permalink }}?ref=footer">Prev Page</a>
   {{ end }}
   <div class="progress-bar">
     <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
   </div>
   <div class="button random" onclick="random()">Random</div>
-  {{ if .NextPage }}
-  <a class="button link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">Next</a>
+  {{ if .Next }}
+  <a class="button link-reverse" href="{{ .Next.Permalink }}?ref=footer">Next Page</a>
   {{ end }}
 </div>
 

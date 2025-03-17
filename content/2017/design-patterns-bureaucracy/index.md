@@ -4,7 +4,6 @@ date = 2017-09-26T00:00:00.000Z
 position = '22% 11%'
 comments = true
 image = '2017/62-design-patterns-bureaucracy.png'
-published = true
 share = true
 +++
 

@@ -4,7 +4,6 @@ date = 2023-03-02T00:00:00.000Z
 position = '87% 18%;'
 tags = ['qa', 'debugging']
 image = '2023/260-remote-debugging.png'
-published = true
 share = true
 +++
 

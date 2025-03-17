@@ -3,7 +3,6 @@ title = 'Deja vu'
 date = 2019-05-07T00:00:00.000Z
 position = '13% 93%;'
 image = '2019/132-deja-vu.png'
-published = true
 share = true
 +++
 

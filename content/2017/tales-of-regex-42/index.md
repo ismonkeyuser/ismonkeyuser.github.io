@@ -4,7 +4,6 @@ date = 2017-02-21T00:00:00.000Z
 position = '56% 7%'
 comments = true
 image = '2017/31-tales-of-regex-42.png'
-published = true
 share = true
 +++
 

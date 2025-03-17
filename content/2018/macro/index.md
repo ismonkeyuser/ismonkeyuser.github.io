@@ -3,7 +3,6 @@ title = 'Macro'
 date = 2018-08-14T00:00:00.000Z
 position = '95% 52%'
 image = '2018/101-macro.png'
-published = true
 share = true
 +++
 

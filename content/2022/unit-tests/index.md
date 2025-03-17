@@ -4,7 +4,6 @@ date = 2022-07-28T00:00:00.000Z
 position = '11% 60%;'
 tags = ['testing', 'unit']
 image = '2022/248-unit-tests.png'
-published = true
 share = true
 +++
 

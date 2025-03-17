@@ -3,7 +3,6 @@ title = 'Escape The Office (The Game)'
 date = 2018-12-21T00:00:00.000Z
 position = '94% 88%;'
 image = '2018/76-debugging.png'
-published = true
 share = true
 +++
 <div style="text-align:center">Escape the office. Merry X-Mas everybody</div>

@@ -4,7 +4,6 @@ date = 2022-10-12T00:00:00.000Z
 position = '11% 90%;'
 tags = ['ai', 'ml', 'nn', '']
 image = '2022/253-ai-care.png'
-published = true
 share = true
 +++
 

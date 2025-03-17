@@ -5,7 +5,6 @@ position = '50% 50%'
 comments = true
 image = '2017/42-qa-engineer-buying-bed.png'
 video = 'KxgLT2WP6bo'
-published = true
 share = true
 +++
 

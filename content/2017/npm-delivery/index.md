@@ -4,7 +4,6 @@ date = 2017-07-04T00:00:00.000Z
 position = '91% 14%'
 comments = true
 image = '2017/52-npm-delivery.png'
-published = true
 share = true
 +++
 

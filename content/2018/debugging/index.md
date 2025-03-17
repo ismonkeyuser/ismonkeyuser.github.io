@@ -4,7 +4,6 @@ date = 2018-02-06T00:00:00.000Z
 position = '6% 88%'
 comments = true
 image = '2018/76-debugging.png'
-published = true
 share = true
 +++
 

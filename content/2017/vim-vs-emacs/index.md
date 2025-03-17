@@ -4,7 +4,6 @@ date = 2017-01-24T00:00:00.000Z
 position = '99% 30%'
 comments = true
 image = '2017/26-vim-vs-emacs.png'
-published = true
 share = true
 +++
 

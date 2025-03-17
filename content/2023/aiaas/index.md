@@ -4,7 +4,6 @@ date = 2023-01-31T00:00:00.000Z
 position = '87% 88%;'
 tags = ['ai', 'product', 'startup']
 image = '2023/258-aiaas.png'
-published = true
 share = true
 +++
 

@@ -5,7 +5,6 @@ position = '8% 93%'
 comments = true
 image = '2017/40-steps-to-reproduce.png'
 video = 'LVVdVkCAu8g'
-published = true
 share = true
 +++
 

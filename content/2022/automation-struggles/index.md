@@ -4,7 +4,6 @@ date = 2022-08-12T00:00:00.000Z
 position = '11% 20%;'
 tags = ['automation']
 image = '2022/249-automation-struggles.png'
-published = true
 share = true
 +++
 

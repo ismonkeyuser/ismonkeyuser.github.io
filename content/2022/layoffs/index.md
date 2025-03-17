@@ -4,7 +4,6 @@ date = 2022-11-22T00:00:00.000Z
 position = '11% 90%;'
 tags = ['layoffs', 'management']
 image = '2022/254-layoffs.png'
-published = true
 share = true
 +++
 

@@ -3,7 +3,6 @@ title = 'Duplicates'
 date = 2020-08-04T00:00:00.000Z
 position = '86% 17%;'
 image = '2020/183-duplicates.png'
-published = true
 share = true
 +++
 

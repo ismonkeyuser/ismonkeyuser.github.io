@@ -4,14 +4,14 @@
 
 <div class="pagination">
     {{ if .Paginator.HasNext }}
-    <a class="button" href="{{ .Paginator.Next.URL }}">Prev</a>
+    <a class="button" href="{{ .Paginator.Next.URL }}">index - 10</a>
     {{ end }}
     <div class="progress-bar">
         <div class="progress-bar__fill" style="width: {{ $percentage }}%"></div>
     </div>
     <div class="button random" onclick="random()">Random</div>
     {{ if .Paginator.HasPrev }}
-    <a class="button"  href="{{ .Paginator.Prev.URL }}">Next</a>
+    <a class="button"  href="{{ .Paginator.Prev.URL }}">index + 10</a>
     {{ end }}
     
 </div>

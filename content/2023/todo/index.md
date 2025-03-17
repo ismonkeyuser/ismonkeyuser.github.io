@@ -3,7 +3,6 @@ title = 'TODO'
 date = 2023-02-21T00:00:00.000Z
 position = '54% 69%; '
 image = 'covers/todo.png'
-published = true
 share = true
 video = 'Him1L68k930'
 +++

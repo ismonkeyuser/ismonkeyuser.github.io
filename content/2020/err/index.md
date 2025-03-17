@@ -3,7 +3,6 @@ title = 'Err'
 date = 2020-04-07T00:00:00.000Z
 position = '11% 14%;'
 image = '2020/171-err.png'
-published = true
 share = true
 +++
 

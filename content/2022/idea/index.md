@@ -4,7 +4,6 @@ date = 2022-01-18T00:00:00.000Z
 position = '11% 18%;'
 tags = ['architecture', 'idea']
 image = '2022/235-idea.png'
-published = true
 share = true
 +++
 

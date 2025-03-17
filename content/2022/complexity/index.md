@@ -4,7 +4,6 @@ date = 2022-07-22T00:00:00.000Z
 position = '11% 60%;'
 tags = ['complexity']
 image = '2022/247-complexity.png'
-published = true
 share = true
 +++
 

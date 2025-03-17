@@ -3,7 +3,6 @@ title = 'Determinism'
 date = 2019-09-10T00:00:00.000Z
 position = '86% 12%;'
 image = '2019/148-determinism.png'
-published = true
 share = true
 +++
 

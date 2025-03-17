@@ -4,7 +4,6 @@ date = 2023-07-25T00:00:00.000Z
 position = '87% 18%;'
 tags = ['ai', 'deprecated', '']
 image = '2023/263-deprecated.png'
-published = true
 share = true
 +++
 

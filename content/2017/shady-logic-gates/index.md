@@ -5,7 +5,6 @@ position = '53% 11%'
 comments = true
 image = '2017/43-shady-logic-gates.png'
 video = 'Mtg1SaUioeQ'
-published = true
 share = true
 +++
 

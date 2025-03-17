@@ -4,7 +4,6 @@ date = 2017-01-31T00:00:00.000Z
 position = '89% 54%'
 comments = true
 image = '2017/27-technically-not-a-bug.png'
-published = true
 share = true
 +++
 

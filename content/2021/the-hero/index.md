@@ -3,7 +3,6 @@ title = 'The Hero'
 date = 2021-01-04T00:00:00.000Z
 position = '7% 10%;'
 image = '2021/201-the-hero.png'
-published = true
 share = true
 +++
 

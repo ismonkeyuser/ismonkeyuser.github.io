@@ -3,7 +3,6 @@ title = 'Update'
 date = 2021-10-05T00:00:00.000Z
 position = '86% 14%; '
 image = '2021/226-update.png'
-published = true
 share = true
 +++
 

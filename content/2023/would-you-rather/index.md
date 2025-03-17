@@ -4,7 +4,6 @@ date = 2023-01-20T00:00:00.000Z
 position = '61% 88%;'
 tags = ['estimates', 'project', 'management']
 image = '2023/257-would-you-rather.png'
-published = true
 share = true
 +++
 

@@ -4,7 +4,6 @@ date = 2016-12-20T00:00:00.000Z
 position = '7% 20%'
 comments = true
 image = '2016/21-acquisition.png'
-published = true
 share = true
 +++
 

@@ -3,7 +3,6 @@ title = 'Code Review'
 date = 2019-04-09T00:00:00.000Z
 position = '86% 13%;'
 image = '2019/128-code-review.png'
-published = true
 share = true
 +++
 

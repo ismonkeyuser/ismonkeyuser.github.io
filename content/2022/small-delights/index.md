@@ -4,7 +4,6 @@ date = 2022-06-24T00:00:00.000Z
 position = '87% 14%;'
 tags = ['refactor', 'code']
 image = '2022/245-small-delights.png'
-published = true
 share = true
 +++
 

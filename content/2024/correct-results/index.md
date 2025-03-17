@@ -4,7 +4,6 @@ date = 2024-08-27T00:00:00.000Z
 position = '11% 11%;'
 tags = ['ai', 'nocode']
 image = '2024/270-correct-results.png'
-published = true
 share = true
 +++
 

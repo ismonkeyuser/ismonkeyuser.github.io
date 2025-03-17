@@ -4,7 +4,6 @@ date = 2017-03-14T00:00:00.000Z
 position = '75% 8%;'
 comments = true
 image = '2017/35-shared-db.png'
-published = true
 share = true
 +++
 

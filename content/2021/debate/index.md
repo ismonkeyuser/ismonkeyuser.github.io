@@ -3,7 +3,6 @@ title = 'Debate'
 date = 2021-10-19T00:00:00.000Z
 position = '86% 14%; '
 image = '2021/228-debate.png'
-published = true
 share = true
 +++
 

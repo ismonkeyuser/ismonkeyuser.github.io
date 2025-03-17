@@ -4,7 +4,6 @@ date = 2017-03-16T00:00:00.000Z
 position = '15% 40%'
 comments = true
 image = '2017/36-trivial-bug.png'
-published = true
 share = true
 +++
 

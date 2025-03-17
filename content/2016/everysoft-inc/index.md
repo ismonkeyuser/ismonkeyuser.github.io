@@ -5,7 +5,6 @@ position = '88% 3%'
 comments = true
 image = '2016/16-everysoft-inc.png'
 share = true
-published = true
 +++
 
 ![Everysoft Corporation](/2016/everysoft-inc/16-everysoft-inc.png "Everysoft Corporation")

@@ -3,7 +3,6 @@ title = 'Diff'
 date = 2020-05-05T00:00:00.000Z
 position = '92% 14%;'
 image = '2020/175-diff.png'
-published = true
 share = true
 +++
 

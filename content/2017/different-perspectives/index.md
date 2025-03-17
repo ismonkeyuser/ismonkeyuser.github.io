@@ -4,7 +4,6 @@ date = 2017-04-04T00:00:00.000Z
 position = '11% 50%'
 comments = true
 image = '2017/39-different-perspectives.png'
-published = true
 share = true
 +++
 

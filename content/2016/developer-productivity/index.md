@@ -5,7 +5,6 @@ position = '12% 78%'
 comments = true
 image = '2016/17-developer-productivity.png'
 share = true
-published = true
 +++
 
 ![Developer Productivity](/2016/developer-productivity/17-developer-productivity.png "Developer Productivity")

@@ -4,7 +4,6 @@ date = 2017-02-28T00:00:00.000Z
 position = '107% 90%'
 comments = true
 image = '2017/33-sha-1-collision.png'
-published = true
 share = true
 +++
 

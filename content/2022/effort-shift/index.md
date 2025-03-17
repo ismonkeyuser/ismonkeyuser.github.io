@@ -4,7 +4,6 @@ date = 2022-12-13T00:00:00.000Z
 position = '11% 90%;'
 tags = ['tasks', 'management', 'ownership', 'nodev']
 image = '2022/255-effort-shift.png'
-published = true
 share = true
 +++
 

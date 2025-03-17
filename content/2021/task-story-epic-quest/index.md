@@ -3,7 +3,6 @@ title = 'Task, Story, Epic, Quest'
 date = 2021-01-13T00:00:00.000Z
 position = '7% 10%; '
 image = '2021/202-task-story-epic-quest.png'
-published = true
 share = true
 +++
 

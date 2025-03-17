@@ -3,7 +3,6 @@ title = 'YAGNI'
 date = 2019-02-26T00:00:00.000Z
 position = '28% 44%;'
 image = '2019/123-yagni.png'
-published = true
 share = true
 +++
 

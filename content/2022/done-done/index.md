@@ -4,7 +4,6 @@ date = 2022-03-08T00:00:00.000Z
 position = '87% 14%;'
 tags = ['task', 'bug', 'dev', 'feature']
 image = '2022/240-done-done.png'
-published = true
 share = true
 +++
 

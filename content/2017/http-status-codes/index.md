@@ -4,7 +4,6 @@ date = 2017-01-10T00:00:00.000Z
 position = '50% 6%'
 comments = true
 image = '2017/23-http-status-codes.png'
-published = true
 share = true
 +++
 
